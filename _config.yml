@@ -9,8 +9,8 @@ relative_permalinks: true
 # Setup
 title:            Charles Breton
 tagline:          
-description:      "SSHRC Postdoctoral Fellow\nDepartment of Political Science\nVanderbilt University"
-url:             
+description:      <a>SSHRC Postdoctoral Fellow</a><br />Department of Political Science Vanderbilt University
+url:            
 baseurl:          
 
 author:
