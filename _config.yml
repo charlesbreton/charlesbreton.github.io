@@ -5,9 +5,9 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Poole
-tagline:             The Jekyll Butler
-url:                 http://getpoole.com
+title:               Charles Breton
+tagline:             SSHRC Postdoctoral Fellow
+url:                 ""
 paginate:            1
 baseurl:             "http://charlesbreton.github.io/"
 
@@ -20,9 +20,9 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Charles Breton
+  url:               https://twitter.com/charlesbreton
+  email:             chuckbreton@gmail.com
 
 # Custom vars
 version:             2.0.0
