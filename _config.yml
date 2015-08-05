@@ -9,7 +9,8 @@ relative_permalinks: true
 # Setup
 title:            Charles Breton
 tagline:          SSHRC Postdoctoral Fellow
-description:      Department of Political Science, Vanderbilt University
+description:      Department of Political Science|+ 
+                  Vanderbilt University
 url:             
 baseurl:          
 
