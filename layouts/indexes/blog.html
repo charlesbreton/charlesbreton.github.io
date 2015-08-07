@@ -1,0 +1,30 @@
+{{ template "chrome/header.html" . }}
+<body lang="en">
+{{ template "chrome/sidebar.html" . }}
+
+<div class="content container">
+  <h1 class="post-title">Recent Posts</h1>
+
+<section id="main">
+  <div>
+    <!-- <ul> -->
+    <!--   {{ range .Data.Pages }} -->
+    <!--         {{ .Render "li"}} -->
+    <!--   {{ end }} -->
+    <!-- </ul> -->
+
+    <ul id="list">
+      {{ range first 10 .Data.Pages }}
+      {{ .Render "summary"}}
+      {{ end }}
+    </ul>
+
+  </div>
+</section>
+
+<aside id="meta"> </aside>
+
+
+{{ template "chrome/footer.html" }}
+
+</div>
