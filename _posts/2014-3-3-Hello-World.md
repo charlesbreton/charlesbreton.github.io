@@ -1,10 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: About
 ---
+I am a SSHRC Postdoctoral Fellow in the Department of Political Science at Vanderbilt University (in the Fall) and a recent Ph.D. in the department of Political Science at the University of British Columbia.
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+My areas of interest are political psychology, political behavior, issues surrounding immigration and ethnic diversity as well as Canadian politics. My work is mostly quantitative and based both on survey data and experimental data.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
