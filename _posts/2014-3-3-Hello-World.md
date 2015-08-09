@@ -6,4 +6,3 @@ I am a SSHRC Postdoctoral Fellow in the Department of Political Science at Vande
 
 My areas of interest are political psychology, political behavior, issues surrounding immigration and ethnic diversity as well as Canadian politics. My work is mostly quantitative and based both on survey data and experimental data.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
