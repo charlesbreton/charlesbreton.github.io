@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: About
 ---
 I am a SSHRC Postdoctoral Fellow in the Department of Political Science at Vanderbilt University (in the Fall) and a recent Ph.D. in the department of Political Science at the University of British Columbia.
