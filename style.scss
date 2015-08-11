@@ -25,7 +25,7 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 840px;
+  max-width: 740px;
   padding: 0 10px;
   width: 100%;
 }
@@ -52,7 +52,8 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
+  color: $gray;
 }
 
 h3 {
@@ -167,7 +168,7 @@ img {
   float: right;
   width: 100px;
   height: 100px;
-  margin-left: 20px;
+  margin-left: 15px;
 
   @include mobile {
     float: none;
