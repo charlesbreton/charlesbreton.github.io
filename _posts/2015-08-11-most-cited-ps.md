@@ -10,6 +10,7 @@ Here are the top 10 Political Science articles by decade. To be clear, these are
 The data come from the Web of Science database. These results were obtained by searching the "Political Science" and the "International Relations" categories. One important thing to note is that WofS is more conservative in terms of citation count than Google Scholar and that the same exercise done with the latter would probably look quite different.
 
 Some notable articles just missed the cut. For example, Rawls’s “Justice as Fairness” misses the cut for the 1980s by 3 citations. Get on it theorists.
-<img src="{{ site.url }}/assets/PSCite.jpeg">
+
+<img src="{{ site.url }}/assets/PSCite.jpg">
 
 You can also download a [pdf]({{ site.url }}/assets/PSCite.pdf) version.
