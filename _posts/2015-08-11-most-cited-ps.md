@@ -3,7 +3,7 @@ layout: post
 title: Most cited article in political science by decade
 ---
 
-I was inspired to do this by [Kieran Healy](kieranhealy.org). By inspired I mean he did it for Sociology using data from a colleague and I decided to do the same with Political Science. I even replicated his graph (as much as I could, Greg Eady helped me with the legend).
+I was inspired to do this by [Kieran Healy](http://kieranhealy.org). By inspired I mean he did it for Sociology using data from a colleague and I decided to do the same with Political Science. I even replicated his graph (as much as I could, Greg Eady helped me with the legend).
 
 Here are the top 10 Political Science articles by decade. To be clear, these are the most-cited articles from that particular decade, not those who were the most cited back then.
 
