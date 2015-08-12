@@ -23,10 +23,10 @@ It is also quite striking to see that the 1980s are not cited that much. The 9th
 
 Three thoughts comparing these results with those from Sociology:
 
-  *I was surprised by the absence of review articles from the Annual Review of Political Science.
+* I was surprised by the absence of review articles from the Annual Review of Political Science.
 
-  *A lot less citations overall for Political Science articles, perhaps it has to do with the way I searched in WofS.
+* A lot less citations overall for Political Science articles, perhaps it has to do with the way I searched in WofS.
 
-  *More diversity early on in terms of journals but overall it’s pretty similar (17 for PS, 14 for Soc).
+* More diversity early on in terms of journals but overall it’s pretty similar (17 for PS, 14 for Soc).
 
 Feel free to comment on these via Twitter (@charlesbreton). I’ll update this post if need be. There’s no comment section here…no time to moderate.
