@@ -29,4 +29,4 @@ Three thoughts comparing these results with those from Sociology:
 
 * More diversity early on in terms of journals but overall it’s pretty similar (17 for PS, 14 for Soc).
 
-Feel free to comment on these via Twitter (@charlesbreton). I’ll update this post if need be. There’s no comment section here…no time to moderate.
+Feel free to comment on these via Twitter (just below). I’ll update this post if need be. There’s no comment section here…no time to moderate.
