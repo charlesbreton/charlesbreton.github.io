@@ -185,7 +185,8 @@ img {
 }
 
 .site-info {
-  float: left;
+  //float: left;
+text-align: center;
 
   @include mobile {
     float: none;
@@ -198,7 +199,7 @@ img {
   //margin: 0;
   text-align: center;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   color: $darkGray;
   cursor: pointer;
   font-family: $helveticaNeue;
@@ -232,7 +233,7 @@ nav {
   }
 
   a {
-    margin-left: 15px;
+    margin-left: 25px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
