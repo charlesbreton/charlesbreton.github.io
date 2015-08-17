@@ -1,3 +1,3 @@
 # Building this website
 
-This is the repository for my website. The code is mostly based on the [Jekyll Now](http://www.jekyllnow.com/) theme.
+This repository contains the code and most of the content for my website. The theme is a modified version of the [Jekyll Now](http://www.jekyllnow.com/) theme.
