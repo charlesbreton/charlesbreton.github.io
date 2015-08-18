@@ -33,6 +33,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
+ 
   
 
   line-height: 1.7;
@@ -76,14 +77,25 @@ p {
   margin: 15px 0;
 }
 
+// a {
+//   color: $blue;
+//   text-decoration: none;
+// 	cursor: pointer;
+//   &:hover, &:active {
+//     color: $blue;
+//   }
+// }
+
 a {
   color: $blue;
   text-decoration: none;
-	cursor: pointer;
-  &:hover, &:active {
-    color: $blue;
-  }
 }
+/* `:focus` is linked to `:hover` for basic accessibility */
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
 
 ul, ol {
   margin: 15px 0;
