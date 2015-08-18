@@ -78,7 +78,7 @@ p {
 }
 
 a {
-  //color: $blue;
+  color: $blue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -96,7 +96,15 @@ a {
 //   text-decoration: underline;
 // }
 
-a:link {
+a.external:link {
+    color: $darkerGray;
+    text-decoration: none;
+    border-bottom: #666666;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
+}
+
+a.external:visited {
     color: $darkerGray;
     text-decoration: none;
     border-bottom: #666666;
