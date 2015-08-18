@@ -2,19 +2,30 @@
 layout: default
 ---
 
-{% for post in site.posts limit: 10 %}
-<div class="row-fluid">
-  <div class="span12">
-    <h3>{{ post.title }}</h3>
-  <div class="date">
-   <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
-  </div>
+<!--{% for post in site.posts limit: 10 %}-->
+<!--<div class="row-fluid">-->
+<!--  <div class="span12">-->
+<!--    <h3>{{ post.title }}</h3>-->
+<!--  <div class="date">-->
+<!--   <h5>{{ page.date | date: "%B %e, %Y" }}</h5>-->
+<!--  </div>-->
    <!-- <h5>{{ page.date | date: "%B %e, %Y" }}</h5>-->
-    <h4>{{ post.excerpt }}</h4>
+<!--    <h4>{{ post.excerpt }}</h4>-->
     
-    <p>
-      <a href="{{ post.url }}">Read more</a>
-    </p>
-  </div>
-</div>
-{% endfor %}
+<!--    <p>-->
+<!--      <a href="{{ post.url }}">Read more</a>-->
+<!--    </p>-->
+<!--  </div>-->
+<!--</div>-->
+<!--{% endfor %}-->
+<article class="post">
+    <header>
+      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
+      <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    </header>
+
+    {{ .Summary }}
+    <footer>
+        <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+    </footer>
+</article>
