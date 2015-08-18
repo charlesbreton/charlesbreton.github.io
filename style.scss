@@ -86,16 +86,23 @@ p {
 //   }
 // }
 
-a {
-  color: $blue;
-  text-decoration: none;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
+// a {
+//   color: $blue;
+//   text-decoration: none;
+// }
+// /* `:focus` is linked to `:hover` for basic accessibility */
+// a:hover,
+// a:focus {
+//   text-decoration: underline;
+// }
 
+a:link {
+    color: $darkerGray;
+    text-decoration: none;
+    border-bottom: #666666;
+    border-width: 0px 0px 1px 0px;
+    border-style: none none dotted none;
+}
 
 ul, ol {
   margin: 15px 0;
