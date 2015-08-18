@@ -77,14 +77,14 @@ p {
   margin: 15px 0;
 }
 
-// a {
-//   color: $blue;
-//   text-decoration: none;
-// 	cursor: pointer;
-//   &:hover, &:active {
-//     color: $blue;
-//   }
-// }
+a {
+  //color: $blue;
+  text-decoration: none;
+	cursor: pointer;
+  &:hover, &:active {
+    color: $darkerGray;
+  }
+}
 
 // a {
 //   color: $blue;
