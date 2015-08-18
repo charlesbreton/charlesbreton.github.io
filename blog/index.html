@@ -20,12 +20,12 @@ layout: default
 <!--{% endfor %}-->
 <article class="post">
     <header>
-      <h2><a href='{{ .Permalink }}'> {{ .Title }}</a> </h2>
-      <div class="meta">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+      <h2><a href='{{ post.url}}'> {{post.title }}</a> </h2>
+      <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
     </header>
 
-    {{ .Summary }}
+    <h4>{{post.excerpt}}</h4>
     <footer>
-        <a href='{{ .Permalink }}'><nobr>Read more →</nobr></a>
+        <a href='{{post.url}}'><nobr>Read more →</nobr></a>
     </footer>
 </article>
