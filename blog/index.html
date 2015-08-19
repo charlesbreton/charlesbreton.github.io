@@ -3,20 +3,36 @@ layout: default
 ---
 
 
+<!--{% for post in site.posts limit: 10 %}-->
+<!-- <div class="row-fluid">
+<!--  <div class="span12"> -->-->
+<!--  <article class="post">-->
+<!--  <h5>{{ page.date | date: "%B %e, %Y" }}</h5>-->
+<!--    <h2><a href='{{post.url}}'class="external">{{post.title}}</a> </h2>-->
+<!--    <h4>{{ post.excerpt }}</h4>-->
+<!--    <footer>-->
+<!--        <a href='{{post.url}}'><nobr>Read more →</nobr></a>-->
+<!--    </footer>-->
+  <!-- </div>
+<!--</div> -->-->
+<!--  </article>  -->
+<!--{% endfor %}-->
+
 {% for post in site.posts limit: 10 %}
 <!-- <div class="row-fluid">
   <div class="span12"> -->
   <article class="post">
   <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
     <h2><a href='{{post.url}}'class="external">{{post.title}}</a> </h2>
-    <h4>{{ post.excerpt }}</h4>
-    <footer>
-        <a href='{{post.url}}'><nobr>Read more →</nobr></a>
-    </footer>
+      <h4>{{ post.excerpt }}</h4>
+    <div id="footer">
+       <span style="float:left;"><a href='{{post.url}}'><nobr>Read more →</nobr></a></span>
+    </div>
   <!-- </div>
 </div> -->
   </article>  
 {% endfor %}
+
 
 
 
