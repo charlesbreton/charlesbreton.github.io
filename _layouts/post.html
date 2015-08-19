@@ -3,8 +3,8 @@ layout: default
 ---
 
 <article class="post">
-  <h3>{{ page.title }}</h3>
-   <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+  <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
+  <h2><a href='{{post.url}}'class="external">{{post.title}}</a> </h2>
   <div class="entry">
     <h4>{{ content }}</h4>
   </div>
