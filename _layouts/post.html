@@ -2,11 +2,24 @@
 layout: default
 ---
 
+<!--<article class="post">-->
+<!--  <div>-->
+<!--    <h5>{{ page.date | date: "%B %e, %Y" }}</h5>-->
+<!--  </div>-->
+<!--  <h2><a href='{{page.url}}'>{{page.title}}</a> </h2>-->
+<!--  <div class="entry">-->
+<!--    <h4>{{ content }}</h4>-->
+<!--  </div>-->
+
+<!--</article>-->
+
 <article class="post">
-  <div>
+  <div class="date">
     <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
   </div>
-  <h2><a href='{{page.url}}'>{{page.title}}</a> </h2>
+  
+  <h2>{{ page.title }}</h2>
+
   <div class="entry">
     <h4>{{ content }}</h4>
   </div>
