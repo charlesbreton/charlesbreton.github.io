@@ -258,6 +258,7 @@ nav {
   color: #00008B;
   font-family: $helveticaNeue;
   font-size: 26px;
+  font-weight: bold;
 
   @include mobile {
     float: none;
