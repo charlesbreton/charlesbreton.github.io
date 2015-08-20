@@ -237,7 +237,7 @@ text-align: center;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 325;
-  font-size: 36px;
+  font-size: 32px;
   letter-spacing: 1px;
 }
 
@@ -257,7 +257,7 @@ nav {
   margin-top: 15px; // @TODO: Vertically middle align
   color: #00008B;
   font-family: $helveticaNeue;
-  font-size: 26px;
+  font-size: 22px;
   font-weight: bold;
 
   @include mobile {
