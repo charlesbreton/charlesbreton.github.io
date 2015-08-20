@@ -14,10 +14,8 @@ layout: default
 <!--</article>-->
 
 <article class="post">
-  <div class="date">
-    <h5>{{ page.date | date: "%B %e, %Y" }}</h5>
-  </div>
-  
+
+    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
   <h2><a href='{{post.url}}'class="external">{{ page.title }}</a></h2>
 
   <div class="entry">
