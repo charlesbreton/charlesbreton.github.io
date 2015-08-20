@@ -13,7 +13,7 @@ Some notable articles just missed the cut. For example, Rawls’s “Justice as 
 
 <img src="{{ site.url }}/assets/PSCite.jpg">
 
-You can also download a [pdf]({{ site.url }}/assets/PScite.pdf) version.
+You can also download a <a href="{{ site.baseurl }}/assets/PScite.pdf" class="external">pdf</a> version.
 
 In the interest of (my) time, I’ll leave most of the interpretation to you, but here are a few comments:
 
