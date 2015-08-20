@@ -28,6 +28,7 @@ layout: default
     {% if post.content contains site.excerpt_separator %}
         <div id="footer">
         <span style="float:left;"> <a href="{{ post.url | prepend: site.baseurl }}"><nobr>Read more →</nobr></a></span>
+      </br>
     {% endif %}
         </div>
 {% endfor %}
