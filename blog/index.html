@@ -19,7 +19,7 @@ layout: default
 <!--{% endfor %}-->
 
 {% for post in site.posts %}
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <span class="date">{{ post.date | date: "%b %-d, %Y" }}</span>
         <h2>
           <a href="{{ post.url | prepend: site.baseurl }}" class="external">{{post.title }}</a>
         </h2>
