@@ -149,10 +149,10 @@ img {
   max-width: none;
 }
 
-// .date {
-//   color: $gray;
-//   margin-bottom: -10px;
-// }
+.date {
+  color: $gray;
+  margin-bottom: -10px;
+}
 
 // Specify the color of the selection
 ::-moz-selection {
@@ -194,7 +194,7 @@ img {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
- /border-bottom: 2px solid $lightGray;
+  border-bottom: 2px solid $lightGray;
 
   @include mobile {
     text-align: center;
