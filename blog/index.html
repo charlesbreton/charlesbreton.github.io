@@ -26,9 +26,10 @@ layout: default
         {{ post.excerpt }} <!--excerpt added here-->
       
     {% if post.content contains site.excerpt_separator %}
+        <div class="post">
         <div class="read-more">
         <span style="float:left;"> <a href="{{ post.url | prepend: site.baseurl }}"><nobr>Read more →</nobr></a></span>
-      </br>
     {% endif %}
+        </div>
         </div>
 {% endfor %}
