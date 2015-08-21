@@ -22,13 +22,14 @@ layout: default
       <div class="date">      
             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
       </div>  
+      <div class="post">
             <h2>
             <a href="{{ post.url | prepend: site.baseurl }}" class="external">{{post.title }}</a>
             </h2>
             {{ post.excerpt }} <!--excerpt added here-->
       
     {% if post.content contains site.excerpt_separator %}
-      <div class="post">
+    
       <div class="read-more">
             <span style="float:left;"> <a href="{{ post.url | prepend: site.baseurl }}"><nobr>Read more →</nobr></a></span>
     {% endif %}
