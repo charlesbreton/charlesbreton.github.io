@@ -4,7 +4,7 @@ title: Most cited article in CJPS
 ---
 
 In my previous post, I looked at the most cited article in political science by decade. 
-Here, I concentrate on the Canadian Journal of Political Science. In this case we’re talking about the most cited articles published in CJPS divided by decade. Just to make sure: these are all articles published in CJPS and the number of time they have been cited since their publication. I only collected data for the top 5. /n/n
+Here, I concentrate on the Canadian Journal of Political Science. In this case we’re talking about the most cited articles published in CJPS divided by decade. Just to make sure: these are all articles published in CJPS and the number of time they have been cited since their publication. I only collected data for the top 5.
 
 <img src="{{ site.url }}/assets/CJPScite.png">
 
