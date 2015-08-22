@@ -334,6 +334,13 @@ footer {
   text-align: center;
 }
 
+.right-credit{
+  padding: 25px 0;
+  text-align: right;
+  color: #00008B;
+  font-size: 8px;
+}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
