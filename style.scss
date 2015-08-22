@@ -332,14 +332,15 @@ nav {
 footer {
   padding: 25px 0;
   text-align: center;
-}
-
-.right-credit{
-  padding: 10px 0;
-  text-align: right;
-  color: $darkGray;
   font-size: 12px;
 }
+
+// .right-credit{
+//   padding: 10px 0;
+//   text-align: right;
+//   color: $darkGray;
+//   font-size: 12px;
+// }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
