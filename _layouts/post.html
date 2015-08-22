@@ -4,14 +4,16 @@ layout: default
 
 <article class="post">
     
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-  
-    <h2>
+    <div class="date">      
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </div> 
+    
+        <h2>
         <a href='{{post.url}}'class="external">{{ page.title }}</a>
-    </h2>
+        </h2>
 
-  <div class="entry">
-    <h4>{{ content }}</h4>
-  </div>
+    <div class="entry">
+        <h4>{{ content }}</h4>
+    </div>
 
 </article>
