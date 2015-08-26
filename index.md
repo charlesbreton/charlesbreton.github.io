@@ -10,8 +10,7 @@ My areas of research include political psychology, political behavior, issues su
 ethnic diversity as well as Canadian politics. I am interested in the role that policies play in intergroup attitudes, especially as it pertains to immigration. 
 Indirectly, these policies can also affect social norms.
     
-    
-Methodologically, my work is mostly quantitative and is based both on observational and experimental data. I have designed and conducted several large-scale surveys and survey experiments and I am now integrating experiments that take place in a lab setting to my research designs.
+Methodologically, my work is mostly quantitative and is based both on observational and experimental data. I have designed and conducted several large-scale surveys and survey experiments and I am now integrating experiments that take place in a lab setting into my current projects.
     
 This website is under construction, some of the links and content may not work properly.
     
