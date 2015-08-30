@@ -11,7 +11,7 @@ ethnic diversity as well as Canadian politics.
 
 Methodologically, my work is mostly quantitative and is based both on observational and experimental data. I have designed and conducted several large-scale surveys and survey experiments and I am now integrating experiments that take place in a lab setting into my current projects.
     
-This website is under construction, some of the links and content may not work properly.
+This website is under construction, links may not work properly and content may be incomplete.
     
 Ce site web est en construction. Une version française suivra sous peu.
 
