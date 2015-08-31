@@ -4,7 +4,7 @@ layout: page
 
     
 I am a SSHRC Postdoctoral Fellow in the Department of Political Science at <a href="http://www.vanderbilt.edu/political-science/" class="external"> Vanderbilt University</a>. I received 
-my Ph.D. from the <a href="http://www.politics.ubc.ca/" class="external">Department of Political Science</a> at the University of British Columbia.
+my Ph.D. from the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a>.
 
 My areas of research include political psychology and political behavior, issues surrounding immigration and 
 ethnic diversity as well as Canadian politics. 
