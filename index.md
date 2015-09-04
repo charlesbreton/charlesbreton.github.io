@@ -2,14 +2,13 @@
 layout: page
 ---
 
-    
-I am a SSHRC Postdoctoral Fellow in the Department of Political Science at <a href="http://www.vanderbilt.edu/political-science/" class="external"> Vanderbilt University</a>. I received 
-my Ph.D. from the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a>.
+I am a SSHRC Postdoctoral Fellow in the Department of Political Science at 
+<a href="http://www.vanderbilt.edu/political-science/" class="external"> Vanderbilt University</a> where I am affiliated with the 
+<a href="http://www.vanderbilt.edu/rips/" class="external"> Research on Individuals, Politics & Society</a> lab. I received my Ph.D. from the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a> in January 2015.
 
-My areas of research include political psychology and political behavior, issues surrounding immigration and 
-ethnic diversity as well as Canadian politics. 
+My main areas of specialization are in political psychology and public opinion with a focus on Canada and on issues surrounding immigration, ethnic diversity. One central theme of my research is to bring the focus on the role played by the context in which intergroup attitudes and behaviors form. This context can take the form of policies governing over intergroup relationships (access to citizenship, multiculturalism policies) or of social norms influencing these attitudes and behaviors.    
 
-Methodologically, my work is mostly quantitative and is based both on observational and experimental data. I have designed and conducted several large-scale surveys and survey experiments and I am now integrating experiments that take place in a lab setting into my current projects.
+Methodologically, my work is quantitative and is based both on observational and experimental data. Most of my work uses original data from several large-scale surveys and survey experiments that I have designed and conducted myself or in collaboration with colleagues.
     
 This website is under construction, links may not work properly and content may be incomplete.
     
