@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most cited article in CJPS
+title: Most cited articles in CJPS
 ---
 
 In my previous post, I looked at the most cited article in political science by decade. 
