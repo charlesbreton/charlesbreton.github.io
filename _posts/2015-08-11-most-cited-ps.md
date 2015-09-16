@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most cited article in political science by decade
+title: Most cited articles in political science by decade
 ---
 
 I was inspired to do this by <a href="http://kieranhealy.org" class="external">Kieran Healy</a>. By inspired I mean he did it for Sociology using data from a colleague and I decided to do the same with Political Science. I even replicated his graph (as much as I could, Greg Eady helped me with the legend).
