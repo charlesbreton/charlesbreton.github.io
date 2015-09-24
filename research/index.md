@@ -52,7 +52,7 @@ Incorporation policies have been largely understudied in the extensive quantitat
 "Do Incorporation Policies Matter? Immigrants' Identification and their Attitudes toward Relationships with the Majority".
 
 
-"Incorporation policies, cultural threat, and host societies' attitudes toward immigration".
+"Incorporation Policies, Cultural Threat, and Host Societies' Attitudes toward Immigration".
    
 <h2>Conservatism in Canada</h2>
 
