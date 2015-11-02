@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Most cited articles in CJPS
+title: Political Science Top-50: Cumulative Citations
 ---
 <meta charset="utf-8">
 <style>
@@ -87,15 +87,14 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 d3.csv("/assets/PS_cite.csv", function(error, data) {
    
-color.domain(d3.keys(data[0]).filter(function(key) { return key == "journal"; }));
+color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
    
 // get data into format
 data = data.map( function (d) { 
     return { 
       title: d.title,
       year: +d.year,
-      tot: +d.tot,
-      journal: +d.journal}; 
+      tot: +d.tot }; 
 });   
   
   
@@ -167,4 +166,3 @@ svg.append("text")
         .text("Cumulative Citations");
 });                    
 </script>
-
