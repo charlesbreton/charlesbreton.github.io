@@ -2,7 +2,6 @@
 layout: post
 title: Most cited articles in CJPS
 ---
-
 <meta charset="utf-8">
 <style>
 svg {
@@ -46,7 +45,7 @@ position: absolute;
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-style: bold;
-  color: darkblue;
+  color: black;
   background: none;
   border: none;
   pointer-events: none; 
@@ -130,7 +129,7 @@ var div = d3.select("body").append("div")
       //;
           .on("mouseover", function(d) {      
                 d3.select(this)
-                .style("stroke", 'darkblue')
+                .style("stroke", 'black')
                 .style("stroke-width", '4px');
            div.transition()        
                 .duration(200)      
