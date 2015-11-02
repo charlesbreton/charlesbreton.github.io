@@ -87,14 +87,15 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 d3.csv("/assets/PS_cite.csv", function(error, data) {
    
-color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
+color.domain(d3.keys(data[0]).filter(function(key) { return key == "journal"; }));
    
 // get data into format
 data = data.map( function (d) { 
     return { 
       title: d.title,
       year: +d.year,
-      tot: +d.tot }; 
+      tot: +d.tot,
+      journal: +d.journal}; 
 });   
   
   
@@ -166,3 +167,4 @@ svg.append("text")
         .text("Cumulative Citations");
 });                    
 </script>
+
