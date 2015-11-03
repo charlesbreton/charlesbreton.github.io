@@ -133,7 +133,7 @@ var div = d3.select("body").append("div")
   cities.append("path")
       .attr("class", "line")
       .attr("d", function(d) { return line(d.values); })
-      .style("stroke", function(d) { return color(d.field); })
+      .style("stroke", function(d) { return color(d.key); })
       //;
           .on("mouseover", function(d) {      
                 d3.select(this)
@@ -148,7 +148,7 @@ var div = d3.select("body").append("div")
     })    
        .on("mouseout", function(d) {       
                  d3.select(this)
-                .style("stroke", function(d) { return color(d.field); })
+                .style("stroke", function(d) { return color(d.key); })
                 .style("stroke-width", '2px')
                   div.transition()        
                       .duration(500)      
