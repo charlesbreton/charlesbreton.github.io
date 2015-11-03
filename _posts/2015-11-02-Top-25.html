@@ -125,15 +125,15 @@ var div = d3.select("body").append("div")
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis);
-  var cities = svg.selectAll(".field")
+  var cities = svg.selectAll(".title")
       .data(data, function(d) { return d.key; })
     .enter().append("g")
-      .attr("class", "field");
+      .attr("class", "title");
   
   cities.append("path")
       .attr("class", "line")
       .attr("d", function(d) { return line(d.values); })
-      .style("stroke", function(d) { return color(d.key); })
+      .style("stroke", function(d) { return color(d.field); })
       //;
           .on("mouseover", function(d) {      
                 d3.select(this)
