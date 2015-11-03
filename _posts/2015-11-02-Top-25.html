@@ -148,7 +148,7 @@ var div = d3.select("body").append("div")
     })    
        .on("mouseout", function(d) {       
                  d3.select(this)
-                .style("stroke", function(d) { return color(d.key); })
+                .style("stroke", function(d) { return color(d.field); })
                 .style("stroke-width", '2px')
                   div.transition()        
                       .duration(500)      
