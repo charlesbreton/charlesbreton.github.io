@@ -72,8 +72,8 @@ var y = d3.scale.linear()
     .range([height,0]);
 
 var color = d3.scale.ordinal()
-  .domain(["IO", "APSR", "CP", "PA", "PST", "BJPS", "AR", "JPR"])
-  .range(["grey", "steelblue","red", "orange", "purple", "blue", "black", "violet"]);
+  .domain(["IR", "Methods", "Other"])
+  .range(["blue", "red", "grey"]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
@@ -93,7 +93,7 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 d3.csv("/assets/PS_cite.csv", function(error, data) {
    
-color.domain(d3.keys(data[0]).filter(function(key) { return key == "abb"; }));
+color.domain(d3.keys(data[0]).filter(function(key) { return key == "field"; }));
    
 // get data into format
 data = data.map( function (d) { 
@@ -101,7 +101,7 @@ data = data.map( function (d) {
       title: d.title,
       year: +d.year,
       tot: +d.tot,
-      abb: +d.abb }; 
+      field: +d.field }; 
 });   
   
   
