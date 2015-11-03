@@ -72,7 +72,7 @@ var y = d3.scale.linear()
     .range([height,0]);
 var color = d3.scale.ordinal()
     .domain([1])
-    .range (["#3182bd"]);
+    .range (["darkblue"]);
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
@@ -133,7 +133,7 @@ var div = d3.select("body").append("div")
       //;
           .on("mouseover", function(d) {      
                 d3.select(this)
-                .style("stroke", 'darkblue')
+                .style("stroke", 'black')
                 .style("stroke-width", '4px');
            div.transition()        
                 .duration(200)      
