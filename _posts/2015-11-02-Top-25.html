@@ -93,7 +93,7 @@ var svg = d3.select("body").append("svg")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 d3.csv("/assets/PS_cite.csv", function(error, data) {
    
-color.domain(d3.keys(data[0]).filter(function(key) { return key == "d.field"; }));
+color.domain(d3.keys(data[0]).filter(function(key) { return key == "field"; }));
    
 // get data into format
 data = data.map( function (d) { 
@@ -125,10 +125,10 @@ var div = d3.select("body").append("div")
   svg.append("g")
       .attr("class", "y axis")
       .call(yAxis);
-  var cities = svg.selectAll(".title")
+  var cities = svg.selectAll(".field")
       .data(data, function(d) { return d.key; })
     .enter().append("g")
-      .attr("class", "title");
+      .attr("class", "field");
   
   cities.append("path")
       .attr("class", "line")
