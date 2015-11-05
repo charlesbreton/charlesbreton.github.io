@@ -93,10 +93,11 @@ d3.csv("/assets/PS_cite.csv", type, function(error, data) {
       .text(function(d) { return d.key; });
 });
 
-function type(d) {
-  d.tot = +d.tot;
-  d.year = d.year;
-  return d;
-}
+data = data.map( function (d) { 
+    return { 
+      title: d.title,
+      year: +d.year,
+      tot: +d.tot }; 
+});   
 
 </script>
