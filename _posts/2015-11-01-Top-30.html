@@ -6,7 +6,7 @@ title: Political Science Top 25
 
 <meta charset="utf-8">
 <style>
-svg {
+body {
   font: 10px sans-serif;
 }
 .axis path,
@@ -48,7 +48,6 @@ position: absolute;
 <h2> Cumulative Citations of the Top 25 Articles in Political Science</h2>
 <br>
 <br>
-
 
 <body>
 <script src="http://d3js.org/d3.v3.js"></script>
@@ -100,6 +99,7 @@ data = data.map( function (d) {
              d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.year; }); })]);
   
   y.domain([0, d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.tot; }); })]);
+
 // Define the div for the tooltip
 var div = d3.select("body").append("div")   
     .attr("class", "tooltip")               
