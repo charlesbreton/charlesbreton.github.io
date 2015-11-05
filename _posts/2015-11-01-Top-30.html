@@ -2,7 +2,6 @@
 layout: post
 title: Political Science Top 25
 ---
-
 <meta charset="utf-8">
 <style>
 
@@ -47,14 +46,14 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
 
-d3.csv("/assets/short.csv", type, function(error, data) {
+d3.csv("stocks.csv", type, function(error, data) {
 
-  // Nest data by journal.
+  // Nest data by title.
   var title = d3.nest()
-      .key(function(d) { return d.journal; })
+      .key(function(d) { return d.title; })
       .entries(data);
 
-  // Compute the maximum tot per journal, needed for the y-domain.
+  // Compute the maximum tot per title, needed for the y-domain.
   title.forEach(function(s) {
     s.maxtot = d3.max(s.values, function(d) { return d.tot; });
   });
@@ -66,7 +65,7 @@ d3.csv("/assets/short.csv", type, function(error, data) {
     d3.max(title, function(s) { return s.values[s.values.length - 1].year; })
   ]);
 
-  // Add an SVG element for each journal, with the desired dimensions and margin.
+  // Add an SVG element for each title, with the desired dimensions and margin.
   var svg = d3.select("body").selectAll("svg")
       .data(title)
     .enter().append("svg")
@@ -85,7 +84,7 @@ d3.csv("/assets/short.csv", type, function(error, data) {
       .attr("class", "line")
       .attr("d", function(d) { y.domain([0, d.maxtot]); return line(d.values); });
 
-  // Add a small label for the journal name.
+  // Add a small label for the title name.
   svg.append("text")
       .attr("x", width - 6)
       .attr("y", height - 6)
@@ -93,12 +92,10 @@ d3.csv("/assets/short.csv", type, function(error, data) {
       .text(function(d) { return d.key; });
 });
 
-data = data.map( function (d) { 
-    return { 
-      title: d.title,
-      year: +d.year,
-      tot: +d.tot }; 
-});
+function type(d) {
+  d.tot = +d.tot;
+  d.year = year(d.year);
+  return d;
+}
 
 </script>
-
