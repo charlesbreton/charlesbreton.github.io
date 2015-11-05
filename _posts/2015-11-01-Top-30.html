@@ -1,8 +1,7 @@
-
 <meta charset="utf-8">
 <style>
 
-body {
+div {
   font: 10px sans-serif;
   margin: 0;
 }
@@ -18,8 +17,15 @@ body {
 }
 
 </style>
-<body>
+
 <script src="//d3js.org/d3.v3.min.js"></script>
+
+<body>
+
+<div id="graph1" ></div>
+
+</body>  
+
 <script>
 
 var margin = {top: 8, right: 10, bottom: 2, left: 10},
@@ -63,7 +69,7 @@ d3.csv("/Desktop/short.csv", type, function(error, data) {
   ]);
 
   // Add an SVG element for each title, with the desired dimensions and margin.
-  var svg = d3.select("body").selectAll("svg")
+  var svg = d3.select("#graph1").selectAll("svg")
       .data(title)
     .enter().append("svg")
       .attr("width", width + margin.left + margin.right)
@@ -96,4 +102,3 @@ function type(d) {
 }
 
 </script>
-</body>
