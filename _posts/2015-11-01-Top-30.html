@@ -48,6 +48,11 @@ var line = d3.svg.line()
 
 d3.csv("stocks.csv", type, function(error, data) {
 
+function type(d) {
+  d.tot = +d.tot;
+  d.year = year(d.year);
+  return d;
+}
   // Nest data by title.
   var title = d3.nest()
       .key(function(d) { return d.title; })
@@ -92,10 +97,5 @@ d3.csv("stocks.csv", type, function(error, data) {
       .text(function(d) { return d.key; });
 });
 
-function type(d) {
-  d.tot = +d.tot;
-  d.year = year(d.year);
-  return d;
-}
 
 </script>
