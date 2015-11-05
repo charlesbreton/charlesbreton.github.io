@@ -46,7 +46,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
 
-d3.csv("stocks.csv", type, function(error, data) {
+d3.csv("/assets/short.csv", type, function(error, data) {
 
 function type(d) {
   d.tot = +d.tot;
