@@ -56,7 +56,7 @@ d3.csv("/assets/PS_cite.csv", type, function(error, data) {
       .entries(data);
 
   // Compute the maximum price per symbol, needed for the y-domain.
-  symbols.forEach(function(s) {
+  tot.forEach(function(s) {
     s.maxTot = d3.max(s.values, function(d) { return d.tot; });
   });
 
@@ -95,8 +95,8 @@ d3.csv("/assets/PS_cite.csv", type, function(error, data) {
 });
 
 function type(d) {
-  d.tot = +d.tot;
-  d.year = d.year;
+  tot = +d.tot;
+  year = d.year;
   return d;
 }
 </script>
