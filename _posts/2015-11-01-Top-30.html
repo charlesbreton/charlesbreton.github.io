@@ -49,7 +49,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
 
-d3.csv("/Desktop/short.csv", type, function(error, data) {
+d3.csv("/assets/Top10.csv", type, function(error, data) {
 
   // Nest data by title.
   var title = d3.nest()
