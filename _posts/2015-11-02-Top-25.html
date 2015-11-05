@@ -1,8 +1,4 @@
----
-layout: post
-title: Political Science Top 25
----
-
+<!DOCTYPE html>
 <meta charset="utf-8">
 <style>
 
@@ -50,8 +46,8 @@ var line = d3.svg.line()
 d3.csv("/assets/PS_cite.csv", type, function(error, data) {
 
   // Nest data by symbol.
-  var decade = d3.nest()
-      .key(function(d) { return d.decade; })
+  var title = d3.nest()
+      .key(function(d) { return d.title; })
       .entries(data);
 
   // Compute the maximum price per symbol, needed for the y-domain.
@@ -62,13 +58,13 @@ d3.csv("/assets/PS_cite.csv", type, function(error, data) {
   // Compute the minimum and maximum date across symbols.
   // We assume values are sorted by date.
   x.domain([
-    d3.min(decade, function(s) { return s.values[0].year; }),
-    d3.max(decade, function(s) { return s.values[s.values.length - 1].year; })
+    d3.min(title, function(s) { return s.values[0].year; }),
+    d3.max(title, function(s) { return s.values[s.values.length - 1].year; })
   ]);
 
   // Add an SVG element for each symbol, with the desired dimensions and margin.
   var svg = d3.select("body").selectAll("svg")
-      .data(decade)
+      .data(title)
     .enter().append("svg")
       .attr("width", width + margin.left + margin.right)
       .attr("height", height + margin.top + margin.bottom)
