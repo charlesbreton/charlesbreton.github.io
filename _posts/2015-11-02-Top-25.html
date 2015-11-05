@@ -59,7 +59,8 @@ position: absolute;
 <br>
 
 
-<body>
+<div> class="Aligner">
+  <div class="Aligner-item">
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
 var margin = {top: 20, right: 80, bottom: 40, left: 70},
@@ -84,7 +85,7 @@ var line = d3.svg.line()
     .interpolate("basis")
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
-var svg = d3.select("body").append("svg:svg")
+var svg = d3.select("div").append("svg:svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -170,3 +171,5 @@ svg.append("text")
         .text("Citations");
 });                    
 </script>
+</div>
+</div>
