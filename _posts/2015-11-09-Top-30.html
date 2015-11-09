@@ -62,7 +62,7 @@ position: absolute;
 <body>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
-var margin = {top: 20, right: 80, bottom: 40, left: 50},
+var margin = {top: 20, right: 80, bottom: 40, left: 70},
     width = 900 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 var x = d3.scale.linear()
@@ -125,7 +125,6 @@ var div = d3.select("body").append("div")
       .data(data, function(d) { return d.key; })
     .enter().append("g")
       .attr("class", "title");
-  
   cities.append("path")
       .attr("class", "line")
       .attr("d", function(d) { return line(d.values); })
@@ -157,7 +156,7 @@ svg.append("text")
        // .attr("style","font-size:16px;")
         .attr("style","font-size:16px; font-weight: bold;") // to bold title
         .style("text-anchor", "middle")
-        .text("age");
+        .text("Years since publication");
 // Add the text label for the Y axis
     svg.append("text")
         .attr("transform", "rotate(-90)")
@@ -168,5 +167,11 @@ svg.append("text")
         .attr("style","font-size:16px; font-weight: bold;") // to bold title
         .style("text-anchor", "middle")
         .text("Cumulative Citations");
+// Add line for top 10.
+  svg.append( "line" )
+  .attr("x1", x( x.domain()[0] ) )
+  .attr("x2", x( x.domain()[1] ) )
+  .attr("y1", y( 1024 ) )   // whatever the y-val should be
+  .attr("y2", y( 1024 ) );
 });                    
 </script>
