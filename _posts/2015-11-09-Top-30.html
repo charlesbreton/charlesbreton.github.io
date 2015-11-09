@@ -169,10 +169,9 @@ svg.append("text")
         .text("Cumulative Citations");
 // Add line for top 10.
   svg.append( "line" )
-  .style("stroke-dasharray", ("3, 3"))
-  .attr("x1", x( x.domain()[0] ) )
-  .attr("x2", x( x.domain()[1] ) )
-  .attr("y1", y( 1024 ) )   // whatever the y-val should be
-  .attr("y2", y( 1024 ) );
+        .attr("x1", x( x.domain()[0] ) )
+        .attr("x2", x( x.domain()[1] ) )
+        .attr("y1", y( 1024 ) )   // whatever the y-val should be
+        .attr("y2", y( 1024 ) );
 });                    
 </script>
