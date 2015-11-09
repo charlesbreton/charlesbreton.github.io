@@ -167,11 +167,6 @@ svg.append("text")
         .attr("style","font-size:16px; font-weight: bold;") // to bold title
         .style("text-anchor", "middle")
         .text("Cumulative Citations");
-// Add line for top 10.
-  svg.append( "line" )
-        .attr("x1", x( x.domain()[0] ) )
-        .attr("x2", x( x.domain()[1] ) )
-        .attr("y1", y( 1024 ) )   // whatever the y-val should be
-        .attr("y2", y( 1024 ) );
 });                    
 </script>
+</body>
