@@ -59,7 +59,6 @@ position: absolute;
 <br>
 
 
-<body>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
 var margin = {top: 20, right: 80, bottom: 40, left: 70},
@@ -84,14 +83,8 @@ var line = d3.svg.line()
     .interpolate("basis")
     .x(function(d) { return x(d.age); })
     .y(function(d) { return y(d.tot); });
-// var circleSelection = svgSelection.append("circle")
-//       .attr("cx", 25)
-//       .attr("cy", 25)
-//       .attr("r", 25)
-//       .style("fill", "purple");
 
-
-var svg = d3.select("body").append("svg")
+var svg = d3.select("div").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -179,5 +172,3 @@ svg.append("text")
 
 });                    
 </script>
-
-</body>
