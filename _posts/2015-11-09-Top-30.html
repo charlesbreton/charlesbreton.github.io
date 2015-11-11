@@ -84,7 +84,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.age); })
     .y(function(d) { return y(d.tot); });
 
-var svg = d3.select("div").append("svg")
+var svg = d3.select("body").append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
