@@ -99,6 +99,8 @@ var svg = d3.select("body").append("svg")
 d3.csv("/assets/PS_cite.csv", function(error, data) {
    
 color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
+
+</body>
    
 // get data into format
 data = data.map( function (d) { 
@@ -178,4 +180,4 @@ svg.append("text")
 
 });                    
 </script>
-</body>
+
