@@ -96,7 +96,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
 
-var svg = d3.select(".chart1")
+var svg = d3.select("#chart1")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -207,7 +207,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.age); })
     .y(function(d) { return y(d.tot); });
 
-var svg = d3.select(".chart2")
+var svg = d3.select("#chart2")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
