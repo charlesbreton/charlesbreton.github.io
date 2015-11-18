@@ -96,7 +96,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
 
-var svg = d3.select("#chart1")
+var chart1 = d3.select("#chart1")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -126,11 +126,11 @@ var div = d3.select("#graph1").append("div")
     .attr("class", "tooltip")               
     .style("opacity", 0);
                                                                                    
-  svg.append("g")
+  chart1.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
-  svg.append("g")
+  chart1.append("g")
       .attr("class", "y axis")
       .call(yAxis);
   var cities = svg.selectAll(".title")
@@ -163,7 +163,7 @@ var div = d3.select("#graph1").append("div")
                       .style("opacity", 0);
         });
 // text label for the x axis
-svg.append("text")      
+chart1.append("text")      
         .attr("x", width / 2 )
         .attr("y",  height + (margin.bottom/1))
        // .attr("style","font-size:16px;")
@@ -171,7 +171,7 @@ svg.append("text")
         .style("text-anchor", "middle")
         .text("Year");
 // Add the text label for the Y axis
-    svg.append("text")
+    chart1.append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 0 - margin.left)
         .attr("x", 0 - (height / 2))
@@ -207,7 +207,7 @@ var line = d3.svg.line()
     .x(function(d) { return x(d.age); })
     .y(function(d) { return y(d.tot); });
 
-var svg = d3.select("#chart2")
+var chart2 = d3.select("#chart2")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
@@ -239,11 +239,11 @@ var div = d3.select("body").append("div")
     .attr("class", "tooltip")               
     .style("opacity", 0);
                                                                                    
-  svg.append("g")
+  chart2.append("g")
       .attr("class", "x axis")
       .attr("transform", "translate(0," + height + ")")
       .call(xAxis);
-  svg.append("g")
+  chart2.append("g")
       .attr("class", "y axis")
       .call(yAxis);
   var cities = svg.selectAll(".title")
@@ -275,7 +275,7 @@ var div = d3.select("body").append("div")
                       .style("opacity", 0);
         });
 // text label for the x axis
-svg.append("text")      
+chart2.append("text")      
         .attr("x", width / 2 )
         .attr("y",  height + (margin.bottom/1))
        // .attr("style","font-size:16px;")
@@ -283,7 +283,7 @@ svg.append("text")
         .style("text-anchor", "middle")
         .text("Years since publication");
 // Add the text label for the Y axis
-    svg.append("text")
+    chart2.append("text")
         .attr("transform", "rotate(-90)")
         .attr("y", 0 - margin.left)
         .attr("x",0 - (height / 2))
