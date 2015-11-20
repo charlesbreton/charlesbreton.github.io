@@ -8,6 +8,8 @@ This is a work in progress. Rather than looking at the top 10 articles for each 
 I'll provide a bit more analysis and more graphs in the near future. For now, you can have a look at the messy 
 code on my github <a href="https://github.com/charlesbreton/charlesbreton.github.io" class="external">repo</a> and download the <a href="{{ site.baseurl }}/assets/PS_cite.csv" class="external">data</a> if you want to have a go at it. This is also an excuse to try working with <a href= "http://d3js.org/" class="external">D3</a> and builds on the visualization work of <a href= "https://github.com/jalapic" class="external"> James Curley </a>.  
 
+
+
 <meta charset="utf-8">
 <style>
 svg {
@@ -61,6 +63,8 @@ position: absolute;
 
 
 <h2> Cumulative Citations of Political Science Top 30</h2>
+<br>
+<br>
 <svg class="chart"></svg>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
@@ -74,7 +78,7 @@ var y = d3.scale.linear()
     .range([height,0]);
 var color = d3.scale.ordinal()
     .domain([1])
-    .range (["#969696"]);
+    .range (["#1f77b4"]);
 var xAxis = d3.svg.axis()
     .scale(x)
     .orient("bottom")
@@ -157,7 +161,7 @@ var div = d3.select("body").append("div")
 // text label for the x axis
 svg.append("text")      
         .attr("x", width / 2 )
-        .attr("y",  height + (margin.bottom/1)
+        .attr("y",  height + (margin.bottom/1))
        // .attr("style","font-size:16px;")
         .attr("style","font-size:16px; font-weight: bold;") // to bold title
         .style("text-anchor", "middle")
@@ -175,6 +179,7 @@ svg.append("text")
 
 });                    
 </script>
+
 
 <h3>A word on the "methodology"</h3>
 
