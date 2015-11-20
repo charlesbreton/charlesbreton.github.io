@@ -8,7 +8,10 @@ This is a work in progress. In a previous <a href="{{ site.baseurl }}/most-cited
 </br>
 </br>
 I'll provide a bit more analysis and more graphs in the near future. For now, you can have a look at the messy 
-code on my github <a href="https://github.com/charlesbreton/charlesbreton.github.io" class="external">repo</a> and download the <a href="{{ site.baseurl }}/assets/PS_cite.csv" class="external">data</a> if you want to have a go at it. This is also an excuse to try working with <a href= "http://d3js.org/" class="external">D3</a> and builds on the visualization work of <a href= "https://github.com/jalapic" class="external"> James Curley </a>.  
+code on my github <a href="https://github.com/charlesbreton/charlesbreton.github.io" class="external">repo</a> and download the <a href="{{ site.baseurl }}/assets/PS_cite.csv" class="external">data</a> if you want to have a go at it. 
+
+This is also an excuse to try working with <a href= "http://d3js.org/" class="external">D3</a> and builds on the visualization work of <a href= "https://github.com/jalapic" class="external"> James Curley </a>. In fact, the graph below is based on Curley's graph
+of <a href="http://jalapic.github.io/tennis1" class="external">cumulative Grand Slams by female tennis players</a>.
 
 <style>
 svg {
@@ -158,8 +161,7 @@ var div = d3.select("body").append("div")
 svg.append("text")      
         .attr("x", width / 2 )
         .attr("y",  height + (margin.bottom/1))
-       // .attr("style","font-size:16px;")
-        .attr("style","font-size:16px; font-weight: bold;") // to bold title
+        .attr("style","font-size:16px; font-weight: bold;")
         .style("text-anchor", "middle")
         .text("Years since publication");
 // Add the text label for the Y axis
@@ -168,8 +170,7 @@ svg.append("text")
         .attr("y", 0 - margin.left)
         .attr("x",0 - (height / 2))
         .attr("dy", "1em")
-       // .attr("style","font-size:16px;")
-        .attr("style","font-size:16px; font-weight: bold;") // to bold title
+        .attr("style","font-size:16px; font-weight: bold;")
         .style("text-anchor", "middle")
         .text("Cumulative Citations");
 
