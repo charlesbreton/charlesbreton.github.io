@@ -57,12 +57,16 @@ position: absolute;
 }
 </style>
 
+
+
 <h2> Cumulative Citations of Political Science Top 30</h2>
+<br>
+<br>
 <svg class="chart"></svg>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
 var margin = {top: 20, right: 80, bottom: 40, left: 70},
-    width = 800 - margin.left - margin.right,
+    width = 900 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 var x = d3.scale.linear()
     .range([0,width]);
@@ -81,7 +85,7 @@ var yAxis = d3.svg.axis()
     .orient("left");
 var line = d3.svg.line()
     .interpolate("basis")
-    .x(function(d) { return x(d.year); })
+    .x(function(d) { return x(d.age); })
     .y(function(d) { return y(d.tot); });
 
 var svg = d3.select(".chart")
@@ -98,7 +102,7 @@ color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
 data = data.map( function (d) { 
     return { 
       title: d.title,
-      year: +d.year,
+      age: +d.age,
       tot: +d.tot }; 
 });   
   
@@ -106,8 +110,8 @@ data = data.map( function (d) {
 // nest data
   data = d3.nest().key(function(d) { return d.title; }).entries(data);
  
-  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.year; }); }),
-             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.year; }); })]);
+  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.age; }); }),
+             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.age; }); })]);
   
   y.domain([0, d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.tot; }); })]);
 
@@ -140,8 +144,8 @@ var div = d3.select("body").append("div")
                 .duration(200)      
                 .style("opacity", .9);      
           div.html(d.key + "<br/>")  
-                .style("left", (d3.event.pyearX+12) + "px")     
-                .style("top", (d3.event.pyearY-60) + "px");    
+                .style("left", (d3.event.pageX+12) + "px")     
+                .style("top", (d3.event.pageY-60) + "px");    
     })    
        .on("mouseout", function(d) {       
                  d3.select(this)
@@ -158,7 +162,7 @@ svg.append("text")
        // .attr("style","font-size:16px;")
         .attr("style","font-size:16px; font-weight: bold;") // to bold title
         .style("text-anchor", "middle")
-        .text("Year");
+        .text("Years since publication");
 // Add the text label for the Y axis
     svg.append("text")
         .attr("transform", "rotate(-90)")
@@ -172,7 +176,6 @@ svg.append("text")
 
 });                    
 </script>
-
 
 <h3>A word on the "methodology"</h3>
 
