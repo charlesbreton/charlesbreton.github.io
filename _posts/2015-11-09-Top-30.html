@@ -8,6 +8,7 @@ This is a work in progress. Rather than looking at the top 10 articles for each 
 
 I'll provide a bit more analysis and more graphs in the near future. For now, you can have a look at the messy 
 code on my github <a href="https://github.com/charlesbreton/charlesbreton.github.io" class="external">repo</a> and download the <a href="{{ site.baseurl }}/assets/PS_cite.csv" class="external">data</a> if you want to have a go at it. This is also an excuse to try working with <a href= "http://d3js.org/" class="external">D3</a> and builds on the visualization work of <a href= "https://github.com/jalapic" class="external"> James Curley </a>.  
+
 <style>
 svg {
   font: 10px sans-serif;
@@ -57,16 +58,13 @@ position: absolute;
 }
 </style>
 
-
-
 <h2> Cumulative Citations of Political Science Top 30</h2>
-<br>
-<br>
+
 <svg class="chart"></svg>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script>
 var margin = {top: 20, right: 80, bottom: 40, left: 70},
-    width = 900 - margin.left - margin.right,
+    width = 800 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 var x = d3.scale.linear()
     .range([0,width]);
