@@ -90,7 +90,7 @@ var yAxis = d3.svg.axis()
     .orient("left");
 var line = d3.svg.line()
     .interpolate("basis")
-    .x(function(d) { return x(d.years); })
+    .x(function(d) { return x(d.year); })
     .y(function(d) { return y(d.tot); });
 
 var svg = d3.select(".chart")
@@ -107,7 +107,7 @@ color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
 data = data.map( function (d) { 
     return { 
       title: d.title,
-      years: +d.years,
+      year: +d.year,
       tot: +d.tot }; 
 });   
   
@@ -115,8 +115,8 @@ data = data.map( function (d) {
 // nest data
   data = d3.nest().key(function(d) { return d.title; }).entries(data);
  
-  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.years; }); }),
-             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.years; }); })]);
+  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.year; }); }),
+             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.year; }); })]);
   
   y.domain([0, d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.tot; }); })]);
 
@@ -149,8 +149,8 @@ var div = d3.select("body").append("div")
                 .duration(200)      
                 .style("opacity", .9);      
           div.html(d.key + "<br/>")  
-                .style("left", (d3.event.pyearsX+12) + "px")     
-                .style("top", (d3.event.pyearsY-60) + "px");    
+                .style("left", (d3.event.pyearX+12) + "px")     
+                .style("top", (d3.event.pyearY-60) + "px");    
     })    
        .on("mouseout", function(d) {       
                  d3.select(this)
@@ -167,7 +167,7 @@ svg.append("text")
        // .attr("style","font-size:16px;")
         .attr("style","font-size:16px; font-weight: bold;") // to bold title
         .style("text-anchor", "middle")
-        .text("Years");
+        .text("year");
 // Add the text label for the Y axis
     svg.append("text")
         .attr("transform", "rotate(-90)")
