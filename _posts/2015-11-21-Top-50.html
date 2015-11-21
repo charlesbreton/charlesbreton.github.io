@@ -1,0 +1,192 @@
+---
+layout: post
+title: Political Science Top 50
+---
+<meta charset="utf-8">
+
+Let me just say first that this is a work in progress. It is, more than anything, an excuse to try working with <a href= "http://d3js.org/" class="external">D3</a>. In a previous <a href="{{ site.baseurl }}/most-cited-ps/" class="external">exercise</a>, I looked at the 10 most cited articles in political science by decade. Here, I thought I would instead graph the 50 most cited articles overall and look at how these citations have evolved through each paper's existence. 
+</br>
+</br>
+I'll provide a bit more analysis and more graphs in the near future. For now, you can have a look at the messy code on my github <a href="https://github.com/charlesbreton/charlesbreton.github.io" class="external">repo</a> and download the <a href="{{ site.baseurl }}/assets/PS_cite.csv" class="external">data</a> if you want to have a go at it. 
+
+The graph is based on <a href= "https://github.com/jalapic" class="external"> James Curley's </a> graph of <a href="http://jalapic.github.io/tennis1" class="external">cumulative Grand Slams by female tennis players</a>.
+
+
+<meta charset="utf-8">
+<style>
+svg {
+  font: 10px sans-serif;
+}
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+.x.axis path {
+  fill:none;
+  stroke:#000;
+  shape-rendering: crispEdges;
+}
+.axis text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+.line {
+  fill: none;
+  stroke-width: 2px;
+}
+h1{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 22px;
+  font-style: bold;
+  
+}
+p{
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 12px;  
+}
+div.tooltip {   
+position: absolute;
+  text-align: left;
+  width: 60px;
+  height: 28px;
+  padding: 2px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-style: bold;
+  color: black;
+  background: none;
+  border: none;
+  pointer-events: none; 
+}
+</style>
+
+<h2> Cumulative Citations of the Top 25 Articles in Political Science</h2>
+
+<svg class="chart"></svg>
+<script src="http://d3js.org/d3.v3.js"></script>
+<script>
+var margin = {top: 20, right: 80, bottom: 40, left: 70},
+    width = 800 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
+var x = d3.scale.linear()
+    .range([0,width]);
+    
+var y = d3.scale.linear()
+    .range([height,0]);
+var color = d3.scale.ordinal()
+    .domain([1])
+    .range (["#1f77b4"]);
+var xAxis = d3.svg.axis()
+    .scale(x)
+    .orient("bottom")
+    .tickFormat(d3.format("d"));;
+var yAxis = d3.svg.axis()
+    .scale(y)
+    .orient("left");
+var line = d3.svg.line()
+    .interpolate("basis")
+    .x(function(d) { return x(d.year); })
+    .y(function(d) { return y(d.tot); });
+var svg = d3.select(".chart").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+d3.csv("/assets/PS_cite.csv", function(error, data) {
+   
+color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
+   
+// get data into format
+data = data.map( function (d) { 
+    return { 
+      title: d.title,
+      year: +d.year,
+      tot: +d.tot }; 
+});   
+  
+  
+// nest data
+  data = d3.nest().key(function(d) { return d.title; }).entries(data);
+ 
+  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.year; }); }),
+             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.year; }); })]);
+  
+  y.domain([0, d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.tot; }); })]);
+// Define the div for the tooltip
+var div = d3.select("body").append("div")   
+    .attr("class", "tooltip")               
+    .style("opacity", 0);
+                                                                                   
+  svg.append("g")
+      .attr("class", "x axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(xAxis);
+  svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis);
+  var cities = svg.selectAll(".title")
+      .data(data, function(d) { return d.key; })
+    .enter().append("g")
+      .attr("class", "title");
+  
+  cities.append("path")
+      .attr("class", "line")
+      .attr("d", function(d) { return line(d.values); })
+      .style("stroke", function(d) { return color(d.key); })
+      //;
+          .on("mouseover", function(d) {      
+                d3.select(this)
+                .style("stroke", 'black')
+                .style("stroke-width", '4px');
+           div.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+          div.html(d.key + "<br/>")  
+                .style("left", (d3.event.pageX+12) + "px")     
+                .style("top", (d3.event.pageY-60) + "px");    
+    })    
+       .on("mouseout", function(d) {       
+                 d3.select(this)
+                .style("stroke", function(d) { return color(d.key); })
+                .style("stroke-width", '2px')
+                  div.transition()        
+                      .duration(500)      
+                      .style("opacity", 0);
+        });
+// text label for the x axis
+svg.append("text")      
+        .attr("x", width / 2 )
+        .attr("y",  height + (margin.bottom/1))
+       // .attr("style","font-size:16px;")
+        .attr("style","font-size:16px; font-weight: bold;") // to bold title
+        .style("text-anchor", "middle")
+        .text("Year");
+// Add the text label for the Y axis
+    svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x", 0 - (height / 2))
+        .attr("dy", "1em")
+       // .attr("style","font-size:16px;")
+        .attr("style","font-size:16px; font-weight: bold;") // to bold title
+        .style("text-anchor", "middle")
+        .text("Citations");
+});                    
+</script>
+
+</br>
+</br>
+
+<h4>The high representation of recent articles (90s, 00s) was more difficult to grasp in the 
+"Top 10 by decade" graph. Many highly cited articles published in the 90s did not make the cut. Looking at the top 50 overall however, means that we now have % that are from that decade. 
+
+Here is the breakdown by decade (back to ggplot2 for now...):</h4>
+
+<img src="{{ site.url }}/assets/small_mult_cite30.png">
+
+
+<h3>A word on the "methodology"</h3>
+
+<h4>The data come from Web of Science, which is more conservative in its citation count than Google so don't be surprised by the somewhat low total citation count. I searched using "Years Published" (PY=) and "Web of Science Category" (WS=) and only selected articles. Depending on your university access you might not get the same number of citations that you see in the dataset. Not only that, some universities do not have all the research categories. Vanderbilt for instance, doesn't have the WC= option. In addition, my Vanderbilt gave me a lower citation count than UBC in part because it didn't go as far back in time. If I only had done this with my Vanderbilt access, I would have missed both "Two Faces of Power" and "Requisite of Democracy", which I knew had to be there based on my previous graph.</h4>
