@@ -164,13 +164,15 @@ svg.append("text")
         .style("text-anchor", "middle")
         .text("Cumulative Citations");
 
-    focus.append("line")
+    svg.append("line")
         .attr("class", "y")
         .style("stroke", "blue")
         .style("stroke-dasharray", "3,3")
         .style("opacity", 0.5)
-        .attr("x1", 1000)
+        .attr("x1", width)
         .attr("x2", width);
+        .attr("y1", 1000)
+        .attr("y2", 1000);
 
 });                    
 
