@@ -15,7 +15,7 @@ Part of this research was funded by the <a href="http://www.environicsinstitute.
 
 Breton, Charles. 2015. <a href="http://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9931998&fulltextType=RA&fileId=S0008423915000268" class="external">
 "Making National Identity Salient: Impact on Attitudes toward Immigration and Multiculturalism"</a> 
-*Canadian Journal of Political Science, forthcoming.*
+*Canadian Journal of Political Science 48 (2): 357-381.*
 
 <h2>Social Desirability Bias</h2>
 
