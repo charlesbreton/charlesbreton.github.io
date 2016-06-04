@@ -1,7 +1,7 @@
 ---
 layout: page
 ---
-I am a postdoctoral fellow in the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a> and for the <a href="http://ces-eec.arts.ubc.ca/" class="external">Canadian Election Study</a>. Prior to this position, I was a SSHRC Postdoctoral Fellow in the Department of Political Science at 
+I am a postdoctoral fellow in the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a> and for the <a href="http://ces-eec.arts.ubc.ca/" class="external">Canadian Election Study</a>. Prior to this position, I was a SSHRC postdoctoral fellow in the Department of Political Science at 
 <a href="http://www.vanderbilt.edu/political-science/" class="external"> Vanderbilt University</a> where I was affiliated with the 
 <a href="http://www.vanderbilt.edu/rips/" class="external"> Research on Individuals, Politics & Society</a> lab. 
 
