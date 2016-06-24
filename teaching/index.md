@@ -7,9 +7,9 @@ Below you will find list of courses I am teaching or have taught in one capacity
 
 I also detail my teaching philosophy in this Teaching Portfolio.
 
-| Course        | Role          | Year  |
+| **Course**        | **Role**          | **Year**  |
 | ------------- |:-------------:|:-----:|
-| Investigating Politics  (POLI 110)| Instructor | 2016-2017 (Term 1) |
+| Investigating Politics <br>(POLI 110)| Instructor | 2016-2017 (Term 1) |
 | Quantitative Methods in Political Science (POLI 380)| Instructor | 2016-2017 (Term 1) |
 | [Honours Thesis (POLI 492)]() | Co-Instructor with <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/antje-ellermann.html" class="external">Antje Ellermann</a> | 2013-2014| 
 |Investigating Politics (POLI 110) | Teaching Assistant to <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/alan-jacobs.html" class="external">Alan Jacobs</a> |2012-2013|
