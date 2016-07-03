@@ -6,9 +6,10 @@ title: Teaching
 Below you will find list of courses I am teaching or have taught in one capacity or another. Just click on the course title to go to the course page and have access to syllabus, lectures, and other course materials.
 
 You can also find a detailed teaching philosophy and my teaching portfolio here.
-<font size="2">
+
 | **Course**        | **Role**          | **Year**  |
 | ----------------- |:-----------------------:|:-------------:|
+<font size="2">
 | Investigating Politics <br>(POLI 110)| Instructor | 2016-2017 <br>(Term 1) |
 | Quantitative Methods in Political Science<br> (POLI 380)| Instructor | 2016-2017<br> (Term 1) |
 | [Honours Thesis <br>]()(POLI 492) | Co-Instructor<br> with <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/antje-ellermann.html" class="external">Antje Ellermann</a> | 2013-2014| 
