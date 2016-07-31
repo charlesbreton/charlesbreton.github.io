@@ -148,10 +148,10 @@ img {
   max-width: 100%;
 }
 
-.headshot {
+img.headshot {
 	float: right;
 	/*margin: 8px 30px 10px 0px;*/
-	//margin: 8px 0px 10px 30px;
+	margin: 8px 0px 10px 30px;
 }
 
 // Fixes images in popup boxes from Google Translate
