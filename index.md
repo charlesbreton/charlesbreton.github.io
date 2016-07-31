@@ -6,7 +6,6 @@ I am a postdoctoral fellow in the Department of Political Science at the <a href
 <a href="http://www.vanderbilt.edu/rips/" class="external"> Research on Individuals, Politics & Society</a> lab. 
 
 <img src="/assets/photo.jpg" alt="Charles Breton" width="275" height="375" class="headshot"/>
-// style="float:right;width:275px;height:375px;" hspace="50" vspace="50"
 
 I received my Ph.D. from the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a> in January 2015.
 
