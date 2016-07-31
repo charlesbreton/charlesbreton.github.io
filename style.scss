@@ -15,12 +15,6 @@
 
 // Images
 
-.headshot {
-	float: right;
-	/*margin: 8px 30px 10px 0px;*/
-	margin: 8px 0px 10px 30px;
-}
-
 
 html {
   font-size: 100%;
@@ -152,6 +146,12 @@ strong, b {
 
 img {
   max-width: 100%;
+}
+
+.headshot {
+	float: right;
+	/*margin: 8px 30px 10px 0px;*/
+	//margin: 8px 0px 10px 30px;
 }
 
 // Fixes images in popup boxes from Google Translate
