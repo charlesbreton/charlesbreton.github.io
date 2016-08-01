@@ -9,6 +9,7 @@ You can also find a detailed teaching philosophy and my teaching portfolio here.
 
 ## 2016-2017
 ### Term 1
+
 [POLI 110 - Investigating Politics]()<br>
 Instructor
 
