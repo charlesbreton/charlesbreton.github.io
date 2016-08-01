@@ -8,9 +8,7 @@ Below you will find list of courses I am teaching or have taught in one capacity
 You can also find a detailed teaching philosophy and my teaching portfolio here.
 
 ## 2016-2017
-
 ### Term 1 
-
 [POLI 110 - Investigating Politics]()<br>
 Instructor 
 
@@ -18,12 +16,11 @@ Instructor
 Instructor
 
 ### Term 2
-
 [POLI 390 - Honours Seminar]()<br>
 Instructor
 
 ## 2014-2015
-[POLI 492 - Honours Thesis <br>]()<br>Co-Instructor with <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/antje-ellermann.html" class="external">Antje Ellermann</a>
+[POLI 492 - Honours Thesis]()<br>Co-Instructor with <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/antje-ellermann.html" class="external">Antje Ellermann</a>
 
 ## Other teaching experiences
 POLI 110 - Investigating Politics<br>
