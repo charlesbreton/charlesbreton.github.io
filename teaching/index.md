@@ -11,6 +11,12 @@ You can also find a detailed teaching philosophy and my teaching portfolio here.
 
 ### Term 1
 
+| Term 1        | Term 2      | 
+| ------------- |-------------| 
+| [POLI 110 - Investigating Politics]()| [POLI 390 - Honours Seminar]()| 
+| [POLI 380 - Quantitative Methods in Political Science]()|       |  
+
+
 [POLI 110 - Investigating Politics]()<br>
 Instructor
 
