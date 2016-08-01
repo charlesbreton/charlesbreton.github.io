@@ -23,18 +23,15 @@ Instructor
 Instructor
 
 ## 2014-2015
-[POLI 492 - Honours Thesis <br>]()<br>
-Co-Instructor with <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/antje-ellermann.html" class="external">Antje Ellermann</a>
+[POLI 492 - Honours Thesis <br>]()<br>Co-Instructor with <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/antje-ellermann.html" class="external">Antje Ellermann</a>
 
-## 2013-2014
+## Other teaching experiences
 POLI 110 - Investigating Politics<br>
 Teaching Assistant to <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/alan-jacobs.html" class="external">Alan Jacobs</a> and <a href="https://anjalibohlken.wordpress.com/" class="external">Anjali Bohlken</a> 
 
-## 2012-2013
 POLI 385b - Elections and Public Opinion <br>
 Teaching Assistant to <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/richard-johnston.html" class="external">Richard Johnston</a> 
 
-## 2011-2012|
 POLI110 - The Government of Canada <br>
 Teaching Assistant to <a href="http://www.politics.ubc.ca/about-us/faculty-members/bfont-color-blue-full-time-facultyfontb/christopher-kam.html" class="external">Christopher Kam</a>
 
