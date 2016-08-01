@@ -8,6 +8,7 @@ Below you will find list of courses I am teaching or have taught in one capacity
 You can also find a detailed teaching philosophy and my teaching portfolio here.
 
 ## 2016-2017
+
 ### Term 1
 
 [POLI 110 - Investigating Politics]()<br>
