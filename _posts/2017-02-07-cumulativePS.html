@@ -1,7 +1,15 @@
 ---
 layout: post
-title: Political Science Top 25
+title: Political Science Top 50
 ---
+<meta charset="utf-8">
+
+Let me just say first that this is a work in progress. It is, more than anything, an excuse to try working with <a href= "http://d3js.org/" class="external">D3</a>. In a previous <a href="{{ site.baseurl }}/most-cited-ps/" class="external">exercise</a>, I looked at the 10 most cited articles in political science by decade. Here, I thought I would instead graph the 50 most cited articles overall and look at how these citations have evolved through each paper's existence. 
+</br>
+</br>
+I'll provide a bit more analysis and more graphs in the near future. For now, you can have a look at the messy code on my github <a href="https://github.com/charlesbreton/charlesbreton.github.io" class="external">repo</a> and download the <a href="{{ site.baseurl }}/assets/PS_cite.csv" class="external">data</a> if you want to have a go at it. 
+
+The graph is based on <a href= "https://github.com/jalapic" class="external"> James Curley's </a> graph of <a href="http://jalapic.github.io/tennis1" class="external">cumulative Grand Slams by female tennis players</a>.
 
 <style>
 svg {
@@ -77,7 +85,7 @@ var yAxis = d3.svg.axis()
     .orient("left");
 var line = d3.svg.line()
     .interpolate("basis")
-    .x(function(d) { return x(d.year); })
+    .x(function(d) { return x(d.age); })
     .y(function(d) { return y(d.tot); });
 
 var svg = d3.select(".chart")
@@ -94,7 +102,7 @@ color.domain(d3.keys(data[0]).filter(function(key) { return key == "title"; }));
 data = data.map( function (d) { 
     return { 
       title: d.title,
-      year: +d.year,
+      age: +d.age,
       tot: +d.tot }; 
 });   
   
@@ -102,8 +110,8 @@ data = data.map( function (d) {
 // nest data
   data = d3.nest().key(function(d) { return d.title; }).entries(data);
  
-  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.year; }); }),
-             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.year; }); })]);
+  x.domain([d3.min(data, function(d) { return d3.min(d.values, function (d) { return d.age; }); }),
+             d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.age; }); })]);
   
   y.domain([0, d3.max(data, function(d) { return d3.max(d.values, function (d) { return d.tot; }); })]);
 
@@ -167,3 +175,18 @@ svg.append("text")
 });                    
 
 </script>
+
+</br>
+</br>
+
+<h4>The high representation of recent articles (90s, 00s) was more difficult to grasp in the 
+"Top 10 by decade" graph. Many highly cited articles published in the 90s did not make the cut. Looking at the top 50 overall however, means that we now have % that are from that decade. 
+
+Here is the breakdown by decade (back to ggplot2 for now...):</h4>
+
+<img src="{{ site.url }}/assets/small_mult_cite30.png">
+
+
+<h3>A word on the "methodology"</h3>
+
+<h4>The data come from Web of Science, which is more conservative in its citation count than Google so don't be surprised by the somewhat low total citation count. I searched using "Years Published" (PY=) and "Web of Science Category" (WS=) and only selected articles. Depending on your university access you might not get the same number of citations that you see in the dataset. Not only that, some universities do not have all the research categories. Vanderbilt for instance, doesn't have the WC= option. In addition, my Vanderbilt gave me a lower citation count than UBC in part because it didn't go as far back in time. If I only had done this with my Vanderbilt access, I would have missed both "Two Faces of Power" and "Requisite of Democracy", which I knew had to be there based on my previous graph.</h4>
