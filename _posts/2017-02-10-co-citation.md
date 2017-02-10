@@ -18,15 +18,15 @@ The starting point is everything that has been published in CJPS from 1968 to 20
 ## 1968-1985: Getting Started
 <img src="{{ site.url }}/assets/1968-1985.png">
 
-You can also look at a dynamic <a href="{{ site.baseurl }}/assets/web6885/cites.html" class="external">version</a>.
+You can also look at a dynamic <a href="{{ site.baseurl }}/assets/web6885/cites.html" class="external" target="_blank">version</a>.
 
 
 ## 1985-2000: Specializing
 <img src="{{ site.url }}/assets/1985-2000.png">
 
-You can also look at a dynamic <a href="{{ site.baseurl }}/assets/web8500/cites.html" class="external">version</a>.
+You can also look at a dynamic <a href="{{ site.baseurl }}/assets/web8500/cites.html" class="external" target="_blank">version</a>.
 
 ## 1985-2000: Expanding and making connections
 <img src="{{ site.url }}/assets/2000-2015.png">
 
-You can also look at a dynamic <a href="{{ site.baseurl }}/assets/web0015/cites.html" class="external">version</a>.
+You can also look at a dynamic <a href="{{ site.baseurl }}/assets/web0015/cites.html" class="external" target="_blank">version</a>.
