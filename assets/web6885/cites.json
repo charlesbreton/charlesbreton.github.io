@@ -1,0 +1,1985 @@
+{
+  "nodes": [
+    {
+      "group": "0", 
+      "name": "Laponce JA 1969" , "nodeSize":15
+    }, 
+    {
+      "group": "1", 
+      "name": "Clark SD 1968" , "nodeSize":7
+    }, 
+    {
+      "group": "2", 
+      "name": "Scarrow HA 1965" , "nodeSize":6
+    }, 
+    {
+      "group": "3", 
+      "name": "Scarrow HA 1961" , "nodeSize":6
+    }, 
+    {
+      "group": "6", 
+      "name": "Almond GA 1963" , "nodeSize":26
+    }, 
+    {
+      "group": "2", 
+      "name": "Butler D 1969" , "nodeSize":13
+    }, 
+    {
+      "group": "0", 
+      "name": "Jenson J 1975" , "nodeSize":5
+    }, 
+    {
+      "group": "4", 
+      "name": "Kornberg A 1967" , "nodeSize":16
+    }, 
+    {
+      "group": "4", 
+      "name": "Noel Sjr 1971" , "nodeSize":6
+    }, 
+    {
+      "group": "2", 
+      "name": "Kornberg A 1969" , "nodeSize":8
+    }, 
+    {
+      "group": "0", 
+      "name": "Taylor C 1970" , "nodeSize":5
+    }, 
+    {
+      "group": "3", 
+      "name": "Duverger M 1954" , "nodeSize":6
+    }, 
+    {
+      "group": "3", 
+      "name": "Anderson GM 1966" , "nodeSize":9
+    }, 
+    {
+      "group": "3", 
+      "name": "Spafford D 1970" , "nodeSize":6
+    }, 
+    {
+      "group": "2", 
+      "name": "Campbell A 1960" , "nodeSize":23
+    }, 
+    {
+      "group": "5", 
+      "name": "Dahl R 1956" , "nodeSize":9
+    }, 
+    {
+      "group": "2", 
+      "name": "Campbell A 1966" , "nodeSize":6
+    }, 
+    {
+      "group": "6", 
+      "name": "Etzioni A 1965" , "nodeSize":9
+    }, 
+    {
+      "group": "7", 
+      "name": "Macpherson CB 1953" , "nodeSize":9
+    }, 
+    {
+      "group": "8", 
+      "name": "Aristotle Politics" , "nodeSize":7
+    }, 
+    {
+      "group": "2", 
+      "name": "Milbrath LW 1965" , "nodeSize":10
+    }, 
+    {
+      "group": "0", 
+      "name": "Sniderman PM 1974" , "nodeSize":8
+    }, 
+    {
+      "group": "7", 
+      "name": "Simeon R 1974" , "nodeSize":7
+    }, 
+    {
+      "group": "0", 
+      "name": "Butler D 1971" , "nodeSize":9
+    }, 
+    {
+      "group": "2", 
+      "name": "Lane RE 1959" , "nodeSize":6
+    }, 
+    {
+      "group": "0", 
+      "name": "Pinard M 1971" , "nodeSize":12
+    }, 
+    {
+      "group": "4", 
+      "name": "Pinard M 1970" , "nodeSize":5
+    }, 
+    {
+      "group": "4", 
+      "name": "Presthus R 1973" , "nodeSize":10
+    }, 
+    {
+      "group": "4", 
+      "name": "Presthus R 1974" , "nodeSize":5
+    }, 
+    {
+      "group": "6", 
+      "name": "Przeworski A 1970" , "nodeSize":6
+    }, 
+    {
+      "group": "0", 
+      "name": "Perlin G 1971" , "nodeSize":8
+    }, 
+    {
+      "group": "6", 
+      "name": "Deutsch K 1957" , "nodeSize":5
+    }, 
+    {
+      "group": "6", 
+      "name": "Easton D 1953" , "nodeSize":8
+    }, 
+    {
+      "group": "3", 
+      "name": "Lipset SM 1967" , "nodeSize":14
+    }, 
+    {
+      "group": "3", 
+      "name": "Lipset SM 1963" , "nodeSize":16
+    }, 
+    {
+      "group": "2", 
+      "name": "Lipset SM 1960" , "nodeSize":12
+    }, 
+    {
+      "group": "3", 
+      "name": "Lipset SM 1968" , "nodeSize":10
+    }, 
+    {
+      "group": "3", 
+      "name": "Wilson J 1968" , "nodeSize":13
+    }, 
+    {
+      "group": "7", 
+      "name": "Leduc L 1974" , "nodeSize":6
+    }, 
+    {
+      "group": "3", 
+      "name": "Horowitz G 1966" , "nodeSize":7
+    }, 
+    {
+      "group": "6", 
+      "name": "Jacob PE 1964" , "nodeSize":5
+    }, 
+    {
+      "group": "4", 
+      "name": "Smith J 1968" , "nodeSize":5
+    }, 
+    {
+      "group": "1", 
+      "name": "Grant GP 1969" , "nodeSize":8
+    }, 
+    {
+      "group": "3", 
+      "name": "Smiley DV 1980" , "nodeSize":6
+    }, 
+    {
+      "group": "4", 
+      "name": "Mallory JR 1971" , "nodeSize":7
+    }, 
+    {
+      "group": "4", 
+      "name": "Dahl R 1966" , "nodeSize":5
+    }, 
+    {
+      "group": "1", 
+      "name": "Grant GP 1965" , "nodeSize":12
+    }, 
+    {
+      "group": "3", 
+      "name": "Alford R 1963" , "nodeSize":22
+    }, 
+    {
+      "group": "3", 
+      "name": "Wilson J 1972" , "nodeSize":6
+    }, 
+    {
+      "group": "5", 
+      "name": "Eckstein H 1963" , "nodeSize":5
+    }, 
+    {
+      "group": "2", 
+      "name": "Campbell A 1954" , "nodeSize":7
+    }, 
+    {
+      "group": "3", 
+      "name": "Rae DW 1967" , "nodeSize":5
+    }, 
+    {
+      "group": "6", 
+      "name": "Riker W 1964" , "nodeSize":7
+    }, 
+    {
+      "group": "5", 
+      "name": "Downs A 1957" , "nodeSize":18
+    }, 
+    {
+      "group": "1", 
+      "name": "Smiley DV 1967" , "nodeSize":7
+    }, 
+    {
+      "group": "4", 
+      "name": "Prewitt K 1966" , "nodeSize":5
+    }, 
+    {
+      "group": "4", 
+      "name": "Hoffman D 1970" , "nodeSize":10
+    }, 
+    {
+      "group": "3", 
+      "name": "Engelmann F C 1967" , "nodeSize":6
+    }, 
+    {
+      "group": "3", 
+      "name": "Meisel J 1956" , "nodeSize":6
+    }, 
+    {
+      "group": "2", 
+      "name": "Pammett JH 1971" , "nodeSize":6
+    }, 
+    {
+      "group": "7", 
+      "name": "Blake DE 1972" , "nodeSize":8
+    }, 
+    {
+      "group": "2", 
+      "name": "Key VO 1966" , "nodeSize":5
+    }, 
+    {
+      "group": "0", 
+      "name": "Converse PE 1969" , "nodeSize":11
+    }, 
+    {
+      "group": "2", 
+      "name": "Converse PE 1964" , "nodeSize":10
+    }, 
+    {
+      "group": "4", 
+      "name": "Miliband R 1969" , "nodeSize":6
+    }, 
+    {
+      "group": "8", 
+      "name": "Plato Republic" , "nodeSize":6
+    }, 
+    {
+      "group": "7", 
+      "name": "Robin M 1972" , "nodeSize":8
+    }, 
+    {
+      "group": "2", 
+      "name": "Berelson B 1954" , "nodeSize":12
+    }, 
+    {
+      "group": "1", 
+      "name": "Clement W 1977" , "nodeSize":5
+    }, 
+    {
+      "group": "4", 
+      "name": "Clement W 1975" , "nodeSize":9
+    }, 
+    {
+      "group": "1", 
+      "name": "Horowitz G 1968" , "nodeSize":6
+    }, 
+    {
+      "group": "7", 
+      "name": "Wilson J 1974" , "nodeSize":8
+    }, 
+    {
+      "group": "0", 
+      "name": "Wilson J 1970" , "nodeSize":7
+    }, 
+    {
+      "group": "4", 
+      "name": "Dye TR 1966" , "nodeSize":5
+    }, 
+    {
+      "group": "5", 
+      "name": "Riker W 1962" , "nodeSize":6
+    }, 
+    {
+      "group": "5", 
+      "name": "Olson M 1965" , "nodeSize":6
+    }, 
+    {
+      "group": "3", 
+      "name": "Cairns AC 1968" , "nodeSize":18
+    }, 
+    {
+      "group": "7", 
+      "name": "Schwartz MA 1974" , "nodeSize":12
+    }, 
+    {
+      "group": "4", 
+      "name": "Porter J 1965" , "nodeSize":35
+    }, 
+    {
+      "group": "6", 
+      "name": "Lumsden I 1970" , "nodeSize":6
+    }, 
+    {
+      "group": "4", 
+      "name": "Deutsch KW 1966" , "nodeSize":9
+    }, 
+    {
+      "group": "3", 
+      "name": "Regenstreif P 1963" , "nodeSize":7
+    }, 
+    {
+      "group": "1", 
+      "name": "Levitt K 1970" , "nodeSize":5
+    }, 
+    {
+      "group": "0", 
+      "name": "Regenstreif P 1965" , "nodeSize":18
+    }, 
+    {
+      "group": "0", 
+      "name": "Meisel J 1973" , "nodeSize":12
+    }, 
+    {
+      "group": "0", 
+      "name": "Meisel J 1972" , "nodeSize":13
+    }, 
+    {
+      "group": "4", 
+      "name": "Meisel J 1974" , "nodeSize":6
+    }, 
+    {
+      "group": "4", 
+      "name": "Dawson RM 1970" , "nodeSize":9
+    }, 
+    {
+      "group": "0", 
+      "name": "Converse PE 1966" , "nodeSize":12
+    }, 
+    {
+      "group": "0", 
+      "name": "Lemieux V 1970" , "nodeSize":14
+    }, 
+    {
+      "group": "0", 
+      "name": "Lemieux V 1971" , "nodeSize":6
+    }, 
+    {
+      "group": "0", 
+      "name": "Laponce JA 1970" , "nodeSize":8
+    }, 
+    {
+      "group": "0", 
+      "name": "Laponce JA 1972" , "nodeSize":8
+    }, 
+    {
+      "group": "3", 
+      "name": "Courtney JC 1966" , "nodeSize":9
+    }, 
+    {
+      "group": "3", 
+      "name": "Courtney JC 1967" , "nodeSize":5
+    }, 
+    {
+      "group": "4", 
+      "name": "Easton D 1965" , "nodeSize":15
+    }, 
+    {
+      "group": "4", 
+      "name": "Cairns AC 1977" , "nodeSize":7
+    }, 
+    {
+      "group": "3", 
+      "name": "Meisel J 1964" , "nodeSize":9
+    }, 
+    {
+      "group": "3", 
+      "name": "Meisel J 1967" , "nodeSize":6
+    }, 
+    {
+      "group": "6", 
+      "name": "Almond GA 1966" , "nodeSize":5
+    }, 
+    {
+      "group": "3", 
+      "name": "Meisel J 1962" , "nodeSize":8
+    }, 
+    {
+      "group": "4", 
+      "name": "Van Loon RJ 1971" , "nodeSize":5
+    }, 
+    {
+      "group": "9", 
+      "name": "Pitkin H 1965" , "nodeSize":5
+    }, 
+    {
+      "group": "9", 
+      "name": "Pitkin H 1966" , "nodeSize":5
+    }, 
+    {
+      "group": "0", 
+      "name": "Lemieux V 1969" , "nodeSize":8
+    }, 
+    {
+      "group": "0", 
+      "name": "Lemieux V 1965" , "nodeSize":5
+    }
+  ], 
+  "links": [
+    {
+      "source": 0, 
+      "target": 97, 
+      "value": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 37, 
+      "value": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 12, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 76, 
+      "value": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 10, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 44, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 14, 
+      "value": 6
+    }, 
+    {
+      "source": 0, 
+      "target": 47, 
+      "value": 6
+    }, 
+    {
+      "source": 0, 
+      "target": 92, 
+      "value": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 0, 
+      "target": 83, 
+      "value": 6
+    }, 
+    {
+      "source": 0, 
+      "target": 84, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 53, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 87, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 91, 
+      "value": 5
+    }, 
+    {
+      "source": 0, 
+      "target": 5, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 30, 
+      "value": 3
+    }, 
+    {
+      "source": 0, 
+      "target": 85, 
+      "value": 6
+    }, 
+    {
+      "source": 1, 
+      "target": 46, 
+      "value": 3
+    }, 
+    {
+      "source": 1, 
+      "target": 54, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 5, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 7, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 9, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 78, 
+      "value": 6
+    }, 
+    {
+      "source": 2, 
+      "target": 14, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 16, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 2, 
+      "target": 30, 
+      "value": 3
+    }, 
+    {
+      "source": 3, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 32, 
+      "value": 4
+    }, 
+    {
+      "source": 4, 
+      "target": 33, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 34, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 99, 
+      "value": 4
+    }, 
+    {
+      "source": 4, 
+      "target": 36, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 5, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 40, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 14, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 17, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 35, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 29, 
+      "value": 3
+    }, 
+    {
+      "source": 4, 
+      "target": 95, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 9, 
+      "value": 4
+    }, 
+    {
+      "source": 5, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 14, 
+      "value": 6
+    }, 
+    {
+      "source": 5, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 16, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 84, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 25, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 59, 
+      "value": 3
+    }, 
+    {
+      "source": 5, 
+      "target": 21, 
+      "value": 4
+    }, 
+    {
+      "source": 5, 
+      "target": 62, 
+      "value": 4
+    }, 
+    {
+      "source": 5, 
+      "target": 63, 
+      "value": 3
+    }, 
+    {
+      "source": 6, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 6, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 6, 
+      "target": 84, 
+      "value": 3
+    }, 
+    {
+      "source": 6, 
+      "target": 21, 
+      "value": 4
+    }, 
+    {
+      "source": 6, 
+      "target": 62, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 8, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 41, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 45, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 78, 
+      "value": 9
+    }, 
+    {
+      "source": 7, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 53, 
+      "value": 4
+    }, 
+    {
+      "source": 7, 
+      "target": 73, 
+      "value": 3
+    }, 
+    {
+      "source": 7, 
+      "target": 56, 
+      "value": 6
+    }, 
+    {
+      "source": 8, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 8, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 9, 
+      "target": 41, 
+      "value": 3
+    }, 
+    {
+      "source": 9, 
+      "target": 14, 
+      "value": 3
+    }, 
+    {
+      "source": 9, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 9, 
+      "target": 16, 
+      "value": 3
+    }, 
+    {
+      "source": 9, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 9, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 10, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 11, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 11, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 12, 
+      "target": 37, 
+      "value": 4
+    }, 
+    {
+      "source": 12, 
+      "target": 47, 
+      "value": 5
+    }, 
+    {
+      "source": 12, 
+      "target": 83, 
+      "value": 5
+    }, 
+    {
+      "source": 12, 
+      "target": 58, 
+      "value": 5
+    }, 
+    {
+      "source": 12, 
+      "target": 93, 
+      "value": 4
+    }, 
+    {
+      "source": 12, 
+      "target": 94, 
+      "value": 3
+    }, 
+    {
+      "source": 13, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 13, 
+      "target": 51, 
+      "value": 3
+    }, 
+    {
+      "source": 13, 
+      "target": 76, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 16, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 20, 
+      "value": 6
+    }, 
+    {
+      "source": 14, 
+      "target": 21, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 23, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 24, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 34, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 35, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 37, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 47, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 50, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 61, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 62, 
+      "value": 5
+    }, 
+    {
+      "source": 14, 
+      "target": 63, 
+      "value": 5
+    }, 
+    {
+      "source": 14, 
+      "target": 67, 
+      "value": 5
+    }, 
+    {
+      "source": 14, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 85, 
+      "value": 4
+    }, 
+    {
+      "source": 14, 
+      "target": 87, 
+      "value": 3
+    }, 
+    {
+      "source": 14, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 15, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 15, 
+      "target": 53, 
+      "value": 3
+    }, 
+    {
+      "source": 16, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 16, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 16, 
+      "target": 48, 
+      "value": 3
+    }, 
+    {
+      "source": 16, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 16, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 16, 
+      "target": 30, 
+      "value": 3
+    }, 
+    {
+      "source": 17, 
+      "target": 52, 
+      "value": 3
+    }, 
+    {
+      "source": 17, 
+      "target": 31, 
+      "value": 3
+    }, 
+    {
+      "source": 18, 
+      "target": 60, 
+      "value": 3
+    }, 
+    {
+      "source": 18, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 18, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 19, 
+      "target": 65, 
+      "value": 3
+    }, 
+    {
+      "source": 20, 
+      "target": 24, 
+      "value": 4
+    }, 
+    {
+      "source": 20, 
+      "target": 35, 
+      "value": 3
+    }, 
+    {
+      "source": 21, 
+      "target": 71, 
+      "value": 3
+    }, 
+    {
+      "source": 21, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 21, 
+      "target": 50, 
+      "value": 3
+    }, 
+    {
+      "source": 21, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 21, 
+      "target": 84, 
+      "value": 4
+    }, 
+    {
+      "source": 21, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 21, 
+      "target": 25, 
+      "value": 3
+    }, 
+    {
+      "source": 21, 
+      "target": 62, 
+      "value": 4
+    }, 
+    {
+      "source": 22, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 22, 
+      "target": 60, 
+      "value": 3
+    }, 
+    {
+      "source": 22, 
+      "target": 37, 
+      "value": 3
+    }, 
+    {
+      "source": 22, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 22, 
+      "target": 71, 
+      "value": 4
+    }, 
+    {
+      "source": 23, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 23, 
+      "target": 62, 
+      "value": 4
+    }, 
+    {
+      "source": 25, 
+      "target": 66, 
+      "value": 3
+    }, 
+    {
+      "source": 25, 
+      "target": 71, 
+      "value": 3
+    }, 
+    {
+      "source": 25, 
+      "target": 105, 
+      "value": 4
+    }, 
+    {
+      "source": 25, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 25, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 25, 
+      "target": 85, 
+      "value": 5
+    }, 
+    {
+      "source": 25, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 25, 
+      "target": 89, 
+      "value": 3
+    }, 
+    {
+      "source": 25, 
+      "target": 30, 
+      "value": 3
+    }, 
+    {
+      "source": 26, 
+      "target": 77, 
+      "value": 3
+    }, 
+    {
+      "source": 26, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 26, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 27, 
+      "target": 64, 
+      "value": 3
+    }, 
+    {
+      "source": 27, 
+      "target": 69, 
+      "value": 3
+    }, 
+    {
+      "source": 27, 
+      "target": 78, 
+      "value": 5
+    }, 
+    {
+      "source": 27, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 27, 
+      "target": 86, 
+      "value": 3
+    }, 
+    {
+      "source": 27, 
+      "target": 28, 
+      "value": 4
+    }, 
+    {
+      "source": 28, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 30, 
+      "target": 72, 
+      "value": 5
+    }, 
+    {
+      "source": 30, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 30, 
+      "target": 83, 
+      "value": 5
+    }, 
+    {
+      "source": 30, 
+      "target": 85, 
+      "value": 4
+    }, 
+    {
+      "source": 30, 
+      "target": 92, 
+      "value": 3
+    }, 
+    {
+      "source": 31, 
+      "target": 79, 
+      "value": 3
+    }, 
+    {
+      "source": 33, 
+      "target": 76, 
+      "value": 4
+    }, 
+    {
+      "source": 33, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 33, 
+      "target": 47, 
+      "value": 4
+    }, 
+    {
+      "source": 34, 
+      "target": 39, 
+      "value": 3
+    }, 
+    {
+      "source": 34, 
+      "target": 37, 
+      "value": 3
+    }, 
+    {
+      "source": 34, 
+      "target": 47, 
+      "value": 4
+    }, 
+    {
+      "source": 35, 
+      "target": 67, 
+      "value": 3
+    }, 
+    {
+      "source": 35, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 35, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 36, 
+      "target": 37, 
+      "value": 3
+    }, 
+    {
+      "source": 36, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 36, 
+      "target": 47, 
+      "value": 5
+    }, 
+    {
+      "source": 36, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 36, 
+      "target": 60, 
+      "value": 3
+    }, 
+    {
+      "source": 36, 
+      "target": 94, 
+      "value": 3
+    }, 
+    {
+      "source": 37, 
+      "target": 97, 
+      "value": 3
+    }, 
+    {
+      "source": 37, 
+      "target": 67, 
+      "value": 3
+    }, 
+    {
+      "source": 37, 
+      "target": 71, 
+      "value": 3
+    }, 
+    {
+      "source": 37, 
+      "target": 76, 
+      "value": 5
+    }, 
+    {
+      "source": 37, 
+      "target": 77, 
+      "value": 4
+    }, 
+    {
+      "source": 37, 
+      "target": 47, 
+      "value": 7
+    }, 
+    {
+      "source": 37, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 37, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 37, 
+      "target": 60, 
+      "value": 3
+    }, 
+    {
+      "source": 37, 
+      "target": 93, 
+      "value": 4
+    }, 
+    {
+      "source": 38, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 38, 
+      "target": 60, 
+      "value": 3
+    }, 
+    {
+      "source": 38, 
+      "target": 77, 
+      "value": 5
+    }, 
+    {
+      "source": 38, 
+      "target": 71, 
+      "value": 3
+    }, 
+    {
+      "source": 39, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 39, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 39, 
+      "target": 47, 
+      "value": 3
+    }, 
+    {
+      "source": 41, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 42, 
+      "target": 46, 
+      "value": 5
+    }, 
+    {
+      "source": 43, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 43, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 44, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 44, 
+      "target": 101, 
+      "value": 3
+    }, 
+    {
+      "source": 44, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 44, 
+      "target": 87, 
+      "value": 5
+    }, 
+    {
+      "source": 46, 
+      "target": 68, 
+      "value": 3
+    }, 
+    {
+      "source": 46, 
+      "target": 82, 
+      "value": 3
+    }, 
+    {
+      "source": 46, 
+      "target": 70, 
+      "value": 3
+    }, 
+    {
+      "source": 47, 
+      "target": 53, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 57, 
+      "value": 5
+    }, 
+    {
+      "source": 47, 
+      "target": 60, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 71, 
+      "value": 3
+    }, 
+    {
+      "source": 47, 
+      "target": 76, 
+      "value": 7
+    }, 
+    {
+      "source": 47, 
+      "target": 77, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 78, 
+      "value": 8
+    }, 
+    {
+      "source": 47, 
+      "target": 81, 
+      "value": 3
+    }, 
+    {
+      "source": 47, 
+      "target": 83, 
+      "value": 7
+    }, 
+    {
+      "source": 47, 
+      "target": 85, 
+      "value": 8
+    }, 
+    {
+      "source": 47, 
+      "target": 91, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 92, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 93, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 94, 
+      "value": 3
+    }, 
+    {
+      "source": 47, 
+      "target": 97, 
+      "value": 5
+    }, 
+    {
+      "source": 47, 
+      "target": 98, 
+      "value": 4
+    }, 
+    {
+      "source": 47, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 48, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 48, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 49, 
+      "target": 53, 
+      "value": 3
+    }, 
+    {
+      "source": 51, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 53, 
+      "target": 91, 
+      "value": 3
+    }, 
+    {
+      "source": 53, 
+      "target": 74, 
+      "value": 3
+    }, 
+    {
+      "source": 53, 
+      "target": 75, 
+      "value": 4
+    }, 
+    {
+      "source": 53, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 55, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 55, 
+      "target": 95, 
+      "value": 3
+    }, 
+    {
+      "source": 56, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 57, 
+      "target": 98, 
+      "value": 3
+    }, 
+    {
+      "source": 57, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 58, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 59, 
+      "target": 62, 
+      "value": 3
+    }, 
+    {
+      "source": 60, 
+      "target": 66, 
+      "value": 4
+    }, 
+    {
+      "source": 60, 
+      "target": 71, 
+      "value": 5
+    }, 
+    {
+      "source": 60, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 60, 
+      "target": 77, 
+      "value": 5
+    }, 
+    {
+      "source": 60, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 60, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 62, 
+      "target": 83, 
+      "value": 5
+    }, 
+    {
+      "source": 62, 
+      "target": 84, 
+      "value": 4
+    }, 
+    {
+      "source": 66, 
+      "target": 71, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 76, 
+      "value": 4
+    }, 
+    {
+      "source": 66, 
+      "target": 77, 
+      "value": 4
+    }, 
+    {
+      "source": 66, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 66, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 69, 
+      "target": 96, 
+      "value": 3
+    }, 
+    {
+      "source": 69, 
+      "target": 78, 
+      "value": 6
+    }, 
+    {
+      "source": 70, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 71, 
+      "target": 76, 
+      "value": 3
+    }, 
+    {
+      "source": 71, 
+      "target": 77, 
+      "value": 6
+    }, 
+    {
+      "source": 71, 
+      "target": 78, 
+      "value": 3
+    }, 
+    {
+      "source": 71, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 72, 
+      "target": 83, 
+      "value": 3
+    }, 
+    {
+      "source": 76, 
+      "target": 77, 
+      "value": 4
+    }, 
+    {
+      "source": 76, 
+      "target": 78, 
+      "value": 8
+    }, 
+    {
+      "source": 76, 
+      "target": 81, 
+      "value": 3
+    }, 
+    {
+      "source": 76, 
+      "target": 83, 
+      "value": 7
+    }, 
+    {
+      "source": 76, 
+      "target": 85, 
+      "value": 3
+    }, 
+    {
+      "source": 76, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 76, 
+      "target": 97, 
+      "value": 3
+    }, 
+    {
+      "source": 76, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 77, 
+      "target": 78, 
+      "value": 5
+    }, 
+    {
+      "source": 77, 
+      "target": 83, 
+      "value": 4
+    }, 
+    {
+      "source": 78, 
+      "target": 81, 
+      "value": 3
+    }, 
+    {
+      "source": 78, 
+      "target": 83, 
+      "value": 6
+    }, 
+    {
+      "source": 78, 
+      "target": 85, 
+      "value": 5
+    }, 
+    {
+      "source": 78, 
+      "target": 86, 
+      "value": 3
+    }, 
+    {
+      "source": 78, 
+      "target": 87, 
+      "value": 6
+    }, 
+    {
+      "source": 78, 
+      "target": 92, 
+      "value": 3
+    }, 
+    {
+      "source": 78, 
+      "target": 95, 
+      "value": 3
+    }, 
+    {
+      "source": 78, 
+      "target": 96, 
+      "value": 3
+    }, 
+    {
+      "source": 78, 
+      "target": 98, 
+      "value": 4
+    }, 
+    {
+      "source": 78, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 78, 
+      "target": 101, 
+      "value": 4
+    }, 
+    {
+      "source": 80, 
+      "target": 95, 
+      "value": 3
+    }, 
+    {
+      "source": 83, 
+      "target": 84, 
+      "value": 5
+    }, 
+    {
+      "source": 83, 
+      "target": 85, 
+      "value": 4
+    }, 
+    {
+      "source": 83, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 83, 
+      "target": 89, 
+      "value": 3
+    }, 
+    {
+      "source": 83, 
+      "target": 92, 
+      "value": 3
+    }, 
+    {
+      "source": 83, 
+      "target": 93, 
+      "value": 3
+    }, 
+    {
+      "source": 83, 
+      "target": 94, 
+      "value": 3
+    }, 
+    {
+      "source": 83, 
+      "target": 97, 
+      "value": 4
+    }, 
+    {
+      "source": 83, 
+      "target": 100, 
+      "value": 3
+    }, 
+    {
+      "source": 84, 
+      "target": 88, 
+      "value": 3
+    }, 
+    {
+      "source": 85, 
+      "target": 104, 
+      "value": 3
+    }, 
+    {
+      "source": 85, 
+      "target": 92, 
+      "value": 6
+    }, 
+    {
+      "source": 85, 
+      "target": 91, 
+      "value": 5
+    }, 
+    {
+      "source": 87, 
+      "target": 101, 
+      "value": 3
+    }, 
+    {
+      "source": 88, 
+      "target": 97, 
+      "value": 3
+    }, 
+    {
+      "source": 88, 
+      "target": 91, 
+      "value": 3
+    }, 
+    {
+      "source": 89, 
+      "target": 104, 
+      "value": 3
+    }, 
+    {
+      "source": 89, 
+      "target": 90, 
+      "value": 5
+    }, 
+    {
+      "source": 91, 
+      "target": 92, 
+      "value": 5
+    }, 
+    {
+      "source": 93, 
+      "target": 97, 
+      "value": 3
+    }, 
+    {
+      "source": 97, 
+      "target": 100, 
+      "value": 4
+    }, 
+    {
+      "source": 102, 
+      "target": 103, 
+      "value": 4
+    }
+  ]
+}
