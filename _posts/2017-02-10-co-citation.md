@@ -36,7 +36,7 @@ Two more observations:
 - Porter's *The Vertical Mosaic* is by far the most cited piece. It also serves as a link with Horowitz (1968) that connects what we could call the "Culture" community centered around Grant's *Lament of a Nation* with everything else.  
 
 ## 1985-2000: Specializing
-The second period gives us a completely different picture. Rather than have a big "hairball" surrounded by smaller communities, we have several communities that are isolated from one another. I would argue that this is the sign of a field that is specializing. Connections *between* this communities will appear later.    
+The second period gives us a completely different picture. Rather than have a big "hairball" surrounded by smaller communities, we have several communities that are isolated from one another. I would argue that this is the sign of a field that is specializing. Connections *between* these communities will appear later.    
 
 <img src="{{ site.url }}/assets/1985-2000.png">
 
@@ -44,8 +44,8 @@ Again, you can also look at a <a href="{{ site.baseurl }}/assets/web8500/network
 
 So we have: 
 
-- A "Federalism" community (light green) around Smiley's *Canada in Question* (1980). 
-- A "Culture" community in purple with Hartz, Horowitz, and Lipset.
+- A "Federalism" community (in red) around Smiley's *Canada in Question* (1980). 
+- A "Culture" community in purple (is that purple?) with Hartz, Horowitz, and Lipset.
 - A multiculturalism (writ large) community that also includes scholars who work on the courts. Cairns's *Disruptions: Constitutional Struggles from the Charter to Meech Lake"* (1991) serves as the connection between the two, but the algorithm sees it as one community---something that will change in the next period. 
 - One small network that we could call "Elections and Public Opinion" but which contains three sub-communities. The main piece here is Clarke, Jenson, LeDuc, and Pammett's *Absent Mandate* (1984). It's unclear how the sub-communities differ or what sub-topics they are dealing with. One thing that's notable is that Richard Johnston has a piece in each of those three sub-communities, including *Letting the People Decide* (1992) which is in the "outskirts" but will become more central in the next period. 
 - In terms of political theory that is not about Canada specifically, we went from a community comprised of Aristotle and Plato in the previous period, to a Michel Foucault trio that's not linked to anything else. Signs of the time I guess. 
@@ -58,15 +58,15 @@ The first thing that is striking with the third and last period is that there ar
 
 <img src="{{ site.url }}/assets/2000-2015.png">
 
-The still image above is not really useful so you have a look at the dynamic <a href="{{ site.baseurl }}/assets/web0015/network0015.html" target="_blank">version</a>.
+The still image above is not really useful so you can have a look at the dynamic <a href="{{ site.baseurl }}/assets/web0015/network0015.html" target="_blank">version</a>.
 
-Let's zoom in and have a look at some of these communities. After all, if we agree with our original assumption, this network can be seen as representing what Canadian political science is talking about *now*. For some of the still images below, I've played with the javascript so we can better see the nodes in each community.   
+Let's zoom in and have a look at some of these communities. After all, if we agree with our original assumption, this network can be seen as representing what Canadian political science is talking about *now* (well, not really, given the 5 citation threshold). For some of the still images below, I've played with the javascript so we can better see the nodes in each community.   
 
-### Elections/Public Opinion
+### Elections
 
 The most cited piece during that period is Blais *et al.*'s *Anatomy of a Liberal Victory* (2002) followed closely by Kymlicka's *Multicultural Citizenship* (1995). These two books are at the center of the two main poles of the literature: Elections/Public opinion and Multiculturalism.
 
-As was the case in the previous two periods, there are multiple sub-communities within what we can call the Elections/Public Opinion. Here's the one that is more specifically about elections, with the Canadian Election Study --- e.g. Johnston *et al.* (1992), Nevitte *et al.* (2000), Blais *et al.* (2002) --- figuring prominently. Gidengil *et al.* (2012) is the most recent paper to pass the 5 citations threshold and make it into the network.
+As was the case in the previous two periods, there are multiple sub-communities within what we can call the Elections community. Here's the one that is more specifically about elections, with the Canadian Election Study --- e.g. Johnston *et al.* (1992), Nevitte *et al.* (2000), Blais *et al.* (2002) --- figuring prominently. Gidengil *et al.* (2012) is the most recent paper to pass the 5 citations threshold and make it into the network.
 
 <img src="{{ site.url }}/assets/elections.png">
 
@@ -80,7 +80,7 @@ And one community that we could call the Carty community (he has 7 solo or co-au
 
 <img src="{{ site.url }}/assets/parties.png">  
 
-I'm passing on some of the other small community but please let me know if you think I am missing something of note.
+I'm passing on some of the other small communities but please let me know if you think I am missing something of note.
 
 ### Multiculturalism
 
