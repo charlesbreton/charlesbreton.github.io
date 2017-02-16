@@ -20,12 +20,12 @@ The python code uses a community detection algorithm to form communities. The di
 ## The Networks
 To look at the evolution of the field, I decided to divide the source material in three periods of about 15 years. These periods are somewhat arbitrary, yet I would argue that they also map onto what we could view as significant periods in Canadian political science. As perhaps an argument in favor of these periods, my somewhat arbitrary temporal divisions appear to give us completely different network patterns. Here they are.  
 
-### 1968-1985: Getting Started
+## 1968-1985: Getting Started
 The first period starts with the first year CJPS was published and ends in 1985, right after the patriation and the constitutional debates that followed (I know it was in 1982...). Here's what the co-citation network looks like. 
 
-<img src="{{ site.url }}/cites/1968-1985.png">
+<img src="{{ site.url }}/assets/cites/1968-1985.png">
 
-You can zoom in if you want but the best way to make sense of it is to look at this <a href="{{ site.baseurl }}/cites/web6885/network6885.html" target="_blank">dynamic version</a>. To make it easier to read some of the sources, you can move the nodes around if you want.
+You can zoom in if you want but the best way to make sense of it is to look at this <a href="{{ site.baseurl }}/assets/cites/web6885/network6885.html" target="_blank">dynamic version</a>. To make it easier to read some of the sources, you can move the nodes around if you want.
 
 Although the networks is constituted by different communities, they are all linked together: everyone seems to be talking to everyone. The field is not yet fully specialized. In addition, many of the most important nodes are American sources, especially in the Elections and Public Opinion communities (Downs, Almond, Campbell, Alford). This makes sense, there were not many Canadian sources on these topics at that point. One notable exception is Regenstreif's *The Diefenbaker Interlude* (1965).
 
@@ -38,9 +38,9 @@ Two more observations:
 ## 1985-2000: Specializing
 The second period gives us a completely different picture. Rather than have a big "hairball" surrounded by smaller commmunities, we have several communities that are isolated from one another. I would argue that this is the sign of a field that is specializing. Connections *between* this communities will appear later.    
 
-<img src="{{ site.url }}/cites/1985-2000.png">
+<img src="{{ site.url }}/assets/cites/1985-2000.png">
 
-Again, you can also look at a <a href="{{ site.baseurl }}/cites/web8500/network8500.html" class="external" target="_blank">dynamic version</a>.
+Again, you can also look at a <a href="{{ site.baseurl }}/assets/cites/web8500/network8500.html" target="_blank">dynamic version</a>.
 
 So we have: 
 
@@ -56,9 +56,9 @@ So we have:
 
 The first thing that is striking with the third and last period is that there are many more citations and many more communities but that these numerous communities are all somewhat connected. They are not connected to the extent that it looks like the hairball we had in the first period, the communities are indeed distinct, but there are always one or two citations to act as bridges. 
 
-<img src="{{ site.url }}/cites/2000-2015.png">
+<img src="{{ site.url }}/assets/cites/2000-2015.png">
 
-The still image above is not really useful so you have a look at the dynamic <a href="{{ site.baseurl }}/cites/web0015/network0015.html" class="external" target="_blank">version</a>.
+The still image above is not really useful so you have a look at the dynamic <a href="{{ site.baseurl }}/assets/cites/web0015/network0015.html" target="_blank">version</a>.
 
 Let's zoom in and have a look at some of these communities. After all, if we agree with our original assumption, this network can be seen as representing what Canadian political science is talking about *now*. For some of the still images below, I've played with the javascript so we can better see the nodes in each communities.   
 
@@ -68,17 +68,17 @@ The most cited piece during that period is Blais *et al.*'s *Anatomy of a Libera
 
 As was the case in the previous two periods, there are multiple sub-communities within what we can call the Elections/Public Opinion. Here's the one that is more specifically about elections, with the Canadian Election Study --- e.g. Johnston *et al.* (1992), Nevitte *et al.* (2000), Blais *et al.* (2002) --- figuring prominently. Gidengil *et al.* (2012) is the most recent paper to pass the 5 citations threshold and make it into the network.
 
-<img src="{{ site.url }}/cites/elections.png">
+<img src="{{ site.url }}/assets/cites/elections.png">
 
 There is still some American sources in there but they are clearly not as fundamental as they were in the first period, with the exception of Downs's *Economic Theory of Democracy*.
 
 The study of Elections has itself specialized which gives us a little sub-community that I think is specifically about economic voting.
 
-<img src="{{ site.url }}/cites/economic_voting.png">
+<img src="{{ site.url }}/assets/cites/economic_voting.png">
 
 And one community that we could call the Carty community (he has 7 solo or co-authored items in this community), looking at political parties. 
 
-<img src="{{ site.url }}/cites/parties.png">  
+<img src="{{ site.url }}/assets/cites/parties.png">  
 
 I'm passing on some of the other small community but please let me know if you think I am missing something of note.
 
@@ -86,15 +86,15 @@ I'm passing on some of the other small community but please let me know if you t
 
 Compared to the previous period, this community has now diversified and includes more empirical work such as *Bowling Alone* (Putnam 2000) and *Becoming a Citizen* (Bloemraad 2006). The Multiculturalism community links with the Institutions one through the connection between Esping-Anderson and  Miller (1995) and Banting *et al.*(2006) - so the Welfare State discussion.  
 
-<img src="{{ site.url }}/cites/multiculturalism.png">
+<img src="{{ site.url }}/assets/cites/multiculturalism.png">
 
 In the previous period, multiculturalism and the courts were part of a single community but not anymore.  
 
-<img src="{{ site.url }}/cites/courts.png">
+<img src="{{ site.url }}/assets/cites/courts.png">
 
 From the junction of these two literatures, a little community of scholars working more specifically on Indigenous issues emerged.
 
-<img src="{{ site.url }}/cites/indigenous.png">
+<img src="{{ site.url }}/assets/cites/indigenous.png">
 
 Other observations:
 
