@@ -25,7 +25,7 @@ The first period starts with the first year CJPS was published and ends in 1985,
 
 <img src="{{ site.url }}/cites/1968-1985.png">
 
-You can zoom in if you want but the best way to make sense of it is to look at this <a href="{{ site.baseurl }}/cites/web6885/network6885.html" class="external" target="_blank">dynamic version</a>. To make it easier to read some of the sources, you can move the nodes around if you want.
+You can zoom in if you want but the best way to make sense of it is to look at this <a href="{{ site.baseurl }}/cites/web6885/network6885.html" target="_blank">dynamic version</a>. To make it easier to read some of the sources, you can move the nodes around if you want.
 
 Although the networks is constituted by different communities, they are all linked together: everyone seems to be talking to everyone. The field is not yet fully specialized. In addition, many of the most important nodes are American sources, especially in the Elections and Public Opinion communities (Downs, Almond, Campbell, Alford). This makes sense, there were not many Canadian sources on these topics at that point. One notable exception is Regenstreif's *The Diefenbaker Interlude* (1965).
 
