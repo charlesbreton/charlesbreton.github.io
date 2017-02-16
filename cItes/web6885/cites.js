@@ -11,10 +11,10 @@ var vis = d3.select("#chart")
 
 d3.json("cites.json", function(json) {
   var force = d3.layout.force()
-      .charge(-1000)
-      .linkDistance(10)
-      .gravity(.5)
-      .linkStrength(.8)
+      .charge(-2000)
+      //.linkDistance(10)
+      .gravity(.8)
+      //.linkStrength(.8)
       .nodes(json.nodes)
       .links(json.links)
       .size([w, h])
@@ -46,7 +46,7 @@ d3.json("cites.json", function(json) {
     .attr("class", "nodetext")
     .attr("dx", 8)
 	.attr("dy", ".35em")
-  .style("font-size", "11px")
+  .style("font-size", "10px")
 	.text(function(d) { return d.name; });
 
   // node.append("svg:title")
