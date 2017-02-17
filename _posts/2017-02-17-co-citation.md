@@ -26,9 +26,9 @@ The first period starts with the first year CJPS was published and ends in 1985,
 
 <img src="{{ site.url }}/assets/1968-1985.png">
 
-You can zoom in if you want but the best way to make sense of it is to look at this <a href="{{ site.baseurl }}/assets/web6885/network6885.html" target="_blank">dynamic version</a>. To make it easier to read some of the sources, you can drag the nodes around. The interconnectedness can make this a bit clumsy but it can still be helful. 
+You can zoom in if you want but the best way to make sense of it is to look at this <a href="{{ site.baseurl }}/assets/web6885/network6885.html" target="_blank">dynamic version</a>. To make it easier to read some of the sources, you can drag the nodes around. The interconnectedness can make this a bit clumsy but it can still be helpful I think. 
 
-Although the network is constituted by different communities, they are all linked together: everyone seems to be talking to everyone. The field is not yet fully specialized. In addition, many of the most important nodes are American sources, especially in the Elections and Public Opinion communities (Downs, Almond, Campbell, Alford). This makes sense. There were not many Canadian sources on these topics at that point. One notable exception is Regenstreif's *The Diefenbaker Interlude* (1965).
+Although the network is constituted by different communities, they are all linked together: everyone seems to be talking to everyone. The field has not yet specialized. In addition, many of the most important nodes are American sources, especially in the Elections and Public Opinion communities (Downs, Almond, Campbell, Alford). This makes sense. There were not many Canadian sources on these topics at that point. One notable exception is Regenstreif's *The Diefenbaker Interlude* (1965).
 
 Two more observations:
 
@@ -37,7 +37,7 @@ Two more observations:
 - Porter's *The Vertical Mosaic* is by far the most cited piece. It also serves as a link with Horowitz (1968) that connects what we could call the "Culture" community centered around Grant's *Lament of a Nation* with everything else.  
 
 ## 1985-2000: Specializing
-The second period gives us a completely different picture. Rather than have a big "hairball" surrounded by smaller communities, we have several communities that are isolated from one another. I would argue that this is the sign of a field that is specializing. Connections *between* these communities will appear later.    
+The second period gives us a completely different picture. Rather than have a big "hairball" surrounded by smaller communities, we have several communities that are isolated from one another. The field is specializing. Connections *between* these communities will appear later.    
 
 <img src="{{ site.url }}/assets/1985-2000.png">
 
@@ -85,11 +85,11 @@ I'm passing on some of the other small communities but please let me know if you
 
 ### Multiculturalism and the Courts
 
-Compared to the previous period, this community has now diversified and includes more empirical work such as *Bowling Alone* (Putnam 2000) and *Becoming a Citizen* (Bloemraad 2006). The Multiculturalism community links with the Institutions one through the connection between Esping-Anderson and  Miller (1995) and Banting *et al.*(2006) - so the Welfare State discussion.  
+Compared to the previous period, this community has now diversified and includes more empirical work such as *Bowling Alone* (Putnam 2000) and *Becoming a Citizen* (Bloemraad 2006). The Multiculturalism community links with the Institutionalism one through the connection between Esping-Anderson and  Miller (1995) and Banting *et al.*(2006) - so the Welfare State discussion.  
 
 <img src="{{ site.url }}/assets/multiculturalism.png">
 
-In the previous period, multiculturalism and the courts were part of a single community but not anymore. The Courts community now has enough connection among itself to be considered a community by the algorithm.   
+In the previous period, multiculturalism and the courts were part of a single community but not anymore. The Courts community now has enough connections among itself to be considered a community by the algorithm.   
 
 <img src="{{ site.url }}/assets/courts.png">
 
@@ -116,4 +116,4 @@ This is a work in progress, both in terms of the choice of data to display and h
 Finally, I have downloaded similar data for the main political science journals (APSR, AJPS, IO, PT, PA, WP, CPS) and I plan on using these data to do something similar in the near future. 
 
 ** A note on the data: 
-Although I spent some time cleaning the data, it is possible that some errors remain. It was - and still is - really messy. Here's the <a href="{{ site.baseurl }}/assets/cjpsdata.txt">raw data</a> if you want to have a look at it. As you will see, sources are sometimes written in different formats. Some authors had their names spelled different ways, had their middle initial included in some instances but not in others, etc. I've tried to standardize it for the main sources, but I might have forgotten some. WoS also returned a lot of sources as "anonymous" so I had to figure out what it was exactly. Again, I might have missed a few. If you find mistake, please let me know. I'll make sure to acknowledge your contribution here!    
+Although I spent some time cleaning the data, it is possible that some errors remain. It was - and still is - really messy. Here's the <a href="{{ site.baseurl }}/assets/cjpsdata.txt" download>raw data</a> if you want to have a look at it. As you will see, sources are sometimes written in different formats. Some authors had their names spelled different ways, had their middle initial included in some instances but not in others, etc. I've tried to standardize it for the main sources, but I might have forgotten some. WoS also returned a lot of sources as "anonymous" so I had to figure out what it was exactly. Again, I might have missed a few. If you find mistake, please let me know. I'll make sure to acknowledge your contribution here!    
