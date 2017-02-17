@@ -5,7 +5,7 @@ title: The Evolution of Canadian Political Science through Co-Citation Networks.
 
 How has Canadian political science evolved since 1968, the first year that the Canadian Journal of Political Science was published in its "modern" format? One possible way to answer this question is to look at what people have been talking about in CJPS and who they have been talking with.
 
-Before going further, I want to point out that the following was inspired by similar projects in philosophy done by <a href="https://kieranhealy.org/blog/archives/2013/06/18/a-co-citation-network-for-philosophy/" target="_blank">Kieran Healy</a> and in sociology done by <a href="http://nealcaren.web.unc.edu/a-sociology-citation-network/" target="_blank">Neal Caren</a>. The basic idea is the same as theirs--- and the move from raw data to network data is a direct copy of Caren's <a href="http://www.unc.edu/~ncaren/cite_network/citenet.py" target="_blank">python code</a>--- but the goal is somewhat different.
+Before going further, I want to point out that the following was inspired by similar projects in philosophy done by <a href="https://kieranhealy.org/blog/archives/2013/06/18/a-co-citation-network-for-philosophy/" target="_blank">Kieran Healy</a> and in sociology done by <a href="http://nealcaren.web.unc.edu/a-sociology-citation-network/" target="_blank">Neal Caren</a>. The basic idea is the same as theirs--- and the move from raw data to network data is a direct copy of Caren's <a href="http://www.unc.edu/~ncaren/cite_network/citenet.py" target="_blank">python script</a>--- but the goal is somewhat different.
 
 ## The Basic Idea 
 
