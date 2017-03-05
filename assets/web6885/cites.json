@@ -46,7 +46,7 @@
     }, 
     {
       "group": "3", 
-      "name": "Duverger M 1954" , "nodeSize":6
+      "name": "Duverger M 1954" , "nodeSize":12
     }, 
     {
       "group": "3", 
@@ -845,13 +845,28 @@
     }, 
     {
       "source": 11, 
-      "target": 76, 
+      "target": 81, 
       "value": 3
     }, 
     {
       "source": 11, 
-      "target": 47, 
+      "target": 76, 
+      "value": 5
+    }, 
+    {
+      "source": 11, 
+      "target": 97, 
       "value": 3
+    }, 
+    {
+      "source": 11, 
+      "target": 78, 
+      "value": 4
+    }, 
+    {
+      "source": 11, 
+      "target": 47, 
+      "value": 4
     }, 
     {
       "source": 12, 
