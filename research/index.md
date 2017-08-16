@@ -17,6 +17,7 @@ Breton, Charles. 2015. <a href="http://journals.cambridge.org/action/displayAbst
 "Making National Identity Salient: Impact on Attitudes toward Immigration and Multiculturalism"</a> 
 *Canadian Journal of Political Science 48 (2): 357-381.*
 
+
 <h2>Social Desirability Bias</h2>
 
 When people are asked about their opinion on sensitive issues, prejudice for instance, they are more likely to provide answers that conform with social expectations and hide their true feelings. In survey research, this is called social desirability bias and public opinion scholars have used different tools to try to circumvent it. But what if this bias was actually measuring something of interest?
@@ -28,7 +29,6 @@ The argument that I develop with my colleague Gregory Eady is that we can gain s
 <a href="{{ site.baseurl }}/assets/Breton et al. 2015 - Misrepresenting the truth.pdf" class="external"> 
 "Misrepresenting the Truth about Minorities"</a><font size="2"> 
 with Gregory Eady, Yannick Dufresne, Clifton Van Der Linden, and Jennifer Hove.</font>
-
 
 "Lying and the Contact Hypothesis: Social Desirability Bias, Attitudes toward Minorities and Proximity"<font size="2"> 
 with Gregory Eady.</font>
