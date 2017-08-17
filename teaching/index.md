@@ -13,7 +13,7 @@ Below you will find list of courses I am teaching or have taught in one capacity
 
 ## 2016-2017
 
-[POLI 110 - Investigating Politics](charlesbreton.github.io/Investigating/index.md)<br>
+[POLI 110 - Investigating Politics](http:\\www.charlesbreton.ca\teaching\POLI110-Breton.pdf)<br>
 
 [POLI 380 - Quantitative Methods in Political Science]()<br>
 
