@@ -17,4 +17,6 @@ This website is under construction, links may not work properly and content may 
     
 Ce site web est en construction. Une version française suivra sous peu.
 
+Photo credit: Eunbyul Park and the <a href="https://www.concordia.ca/artsci/polisci/research/cipe.html"class="external">Centre for Immigration Policy Evaluation</a>.
+
 
