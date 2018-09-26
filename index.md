@@ -1,9 +1,9 @@
 ---
 layout: page
 ---
-I am the Research Director at <a href="http://voxpoplabs.com/" target="_blank" class="external"> Vox Pop Labs. 
+I am the Research Director at <a href="http://voxpoplabs.com/" target="_blank" class="external"> Vox Pop Labs, makers of <a href="http://votecompass.com/" target="_blank" class="external"> Vote Compass. 
 
-Before that I was a postdoctoral fellow in the Department of Political Science at the <a href="http://www.politics.ubc.ca/" target="_blank" class="external">University of British Columbia</a> , the <a href="http://ces-eec.arts.ubc.ca/" class="external">Canadian Election Study</a>, and a SSHRC postdoctoral fellow in the Department of Political Science at 
+Before holding this position, I was a postdoctoral fellow in the Department of Political Science at the <a href="http://www.politics.ubc.ca/" target="_blank" class="external">University of British Columbia</a> , the <a href="http://ces-eec.arts.ubc.ca/" class="external">Canadian Election Study</a>, and a SSHRC postdoctoral fellow in the Department of Political Science at 
 <a href="http://www.vanderbilt.edu/political-science/" class="external"> Vanderbilt University</a>. 
 
 <img src="/assets/photo.jpg" alt="Charles Breton" width="350" height="375" class="headshot"/>
