@@ -8,9 +8,7 @@ Before holding this position, I was a postdoctoral fellow in the Department of P
 
 <img src="/assets/photo.jpg" alt="Charles Breton" width="350" height="375" class="headshot"/>
 
-I received my Ph.D. from the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a> in January 2015.
-
-My main areas of specialization are in political psychology and public opinion with a focus on Canada and on issues surrounding immigration and ethnic diversity. 
+I received my Ph.D. from the Department of Political Science at the <a href="http://www.politics.ubc.ca/" class="external">University of British Columbia</a>. My main areas of specialization are in political psychology and public opinion with a focus on Canada and on issues surrounding immigration and ethnic diversity. 
 
 Methodologically, my work is quantitative and is based both on observational and experimental data. Most of my work uses original data from several large-scale surveys and survey experiments that I have designed and conducted myself or in collaboration with colleagues. For more details on my research agenda and my current projects see my <a href="{{ site.baseurl }}/research/index.html" class="external">Research</a> page.
     
