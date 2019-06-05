@@ -110,11 +110,6 @@ Other observations:
 - Another absent, perhaps unsurprisingly, is International Relations. Aside from a small Keohane-Putnam dyad in the last period, there's nothing. 
 - Finally, this is obviously just one way to answer the question at the origin of this post: What is Canadian Political Science talking about (or what did it talk about in the past)? It is limited by our starting assumption --- that to answer this question one can look at what articles published in CJPS are citing. The networks are also directly influenced by my periodization and by my limits on citations and connections, so it should still be taken as a partial answer. 
 
-## What's next
+## A note on data 
 
-This is a work in progress, both in terms of the choice of data to display and how it is displayed. Comments and questions are more than welcome, I'll be happy to update the networks if need be. I am also working on a poster version of this that will be presented at CPSA meeting in Toronto. 
-
-Finally, I have downloaded similar data for the main political science journals (APSR, AJPS, IO, PT, PA, WP, CPS) and I plan on using these data to do something similar in the near future. 
-
-** A note on the data: 
 Although I spent some time cleaning the data, it is possible that some errors remain. It was - and still is - really messy. Here's the <a href="{{ site.baseurl }}/assets/cjpsdata.txt" download>raw data</a> if you want to have a look at it. As you will see, sources are sometimes written in different formats. Some authors had their names spelled different ways, had their middle initial included in some instances but not in others, etc. I've tried to standardize it for the main sources, but I might have forgotten some. WoS also returned a lot of sources as "anonymous" so I had to figure out what they were exactly. Again, I might have missed a few. If you find mistake, please let me know. I'll make sure to acknowledge your contribution here!    
