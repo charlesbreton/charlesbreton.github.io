@@ -2,7 +2,7 @@
 layout: page
 ---
 
-I am the Executive Director of the <a href="https://irpp.org/" target="_blank" class="external">IRPP</a>'s Center of Excellence on the Canadian Federation 
+I am the Executive Director of the <a href="https://irpp.org/" target="_blank" class="external">IRPP</a>'s Centre of Excellence on the Canadian Federation 
 
 Je suis le directeur exécutif du Centre d’excellence sur la fédération canadienne de l'<a href="https://irpp.org/fr/" target="_blank" class="external">IRPP</a>. 
 
