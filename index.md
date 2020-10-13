@@ -2,9 +2,9 @@
 layout: page
 ---
 
-I am the Executive Director of the <a href="https://irpp.org/" target="_blank" class="external">IRPP</a>'s Centre of Excellence on the Canadian Federation 
+I am the Executive Director of the <a href="https://centre.irpp.org/" target="_blank" class="external"> Centre of Excellence on the Canadian Federation</a>. 
 
-Je suis le directeur exécutif du Centre d’excellence sur la fédération canadienne de l'<a href="https://irpp.org/fr/" target="_blank" class="external">IRPP</a>. 
+Je suis le directeur exécutif du  <a href="https://centre.irpp.org/fr/" target="_blank" class="external">Centre d’excellence sur la fédération canadienne</a>. 
 
 Before holding this position, I was the Research Director at <a href="http://voxpoplabs.com/" target="_blank" class="external"> Vox Pop Labs</a>, makers of <a href="http://votecompass.com/" target="_blank" class="external"> Vote Compass</a>. 
 
